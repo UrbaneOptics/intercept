@@ -2,7 +2,6 @@ package psql
 
 import (
 	"database/sql"
-	"errors"
 
 	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/models"
 )
@@ -16,7 +15,7 @@ type PrecinctModel struct {
 func (m *PrecinctModel) Get(id int) (*models.Precinct, error) {
 	stmt := `SELECT *
 					 FROM precincts
-					 WHERE id = ?`
+					 WHERE id = $1`
 
 	s := &models.Precinct{}
 
@@ -24,11 +23,7 @@ func (m *PrecinctModel) Get(id int) (*models.Precinct, error) {
 
 	err := row.Scan(&s.ID, &s.Name)
 	if err != nil {
-		if errors.Is(err, sql.ErrNoRows) {
-			return nil, models.ErrNoRecord
-		} else {
-			return nil, err
-		}
+		return nil, err
 	}
 
 	return s, nil

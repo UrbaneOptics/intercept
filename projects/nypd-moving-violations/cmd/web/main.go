@@ -10,6 +10,7 @@ import (
 
 	_ "github.com/lib/pq"
 	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/config"
+	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/models/psql"
 )
 
 type Config struct {
@@ -17,8 +18,9 @@ type Config struct {
 }
 
 type application struct {
-	errorLog *log.Logger
-	infoLog  *log.Logger
+	errorLog  *log.Logger
+	infoLog   *log.Logger
+	precincts *psql.PrecinctModel
 }
 
 func openDB(host string, port int, user string, pass string, name string) (*sql.DB, error) {
@@ -29,7 +31,6 @@ func openDB(host string, port int, user string, pass string, name string) (*sql.
 	if err != nil {
 		return nil, err
 	}
-	defer db.Close()
 
 	err = db.Ping()
 	if err != nil {
@@ -56,12 +57,6 @@ func main() {
 	infoLog := log.New(os.Stdout, "INFO\t", log.Ldate|log.Ltime)
 	errorLog := log.New(os.Stderr, "ERROR\t", log.Ldate|log.Ltime|log.Lshortfile)
 
-	// Initialize a new instance of app containing the dependencies
-	app := &application{
-		errorLog: errorLog,
-		infoLog:  infoLog,
-	}
-
 	db, err := openDB(
 		dbConfig.Host,
 		dbConfig.Port,
@@ -70,11 +65,18 @@ func main() {
 		dbConfig.DBname,
 	)
 
+	defer db.Close()
+
 	if err != nil {
 		errorLog.Fatal(err)
 	}
 
-	defer db.Close()
+	// Initialize a new instance of app containing the dependencies
+	app := &application{
+		errorLog:  errorLog,
+		infoLog:   infoLog,
+		precincts: &psql.PrecinctModel{DB: db},
+	}
 
 	srv := &http.Server{
 		Addr:     cfg.Addr,
