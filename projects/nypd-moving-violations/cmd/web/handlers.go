@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"encoding/json"
 	"net/http"
 	"strconv"
 )
@@ -36,5 +36,12 @@ func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
 		app.serverError(w, err)
 	}
 
-	fmt.Fprintf(w, "%v", p)
+	js, err := json.Marshal(p)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
 }
