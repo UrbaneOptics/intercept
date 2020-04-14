@@ -18,8 +18,8 @@ type MovingViolation struct {
 	Name string
 }
 
-// MovingViolationWritten model
-type MovingViolationWritten struct {
+// Tally model
+type Tally struct {
 	Count             int
 	Month             int
 	Year              int
