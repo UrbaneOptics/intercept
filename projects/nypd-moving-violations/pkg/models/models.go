@@ -8,8 +8,9 @@ var ErrNoRecord = errors.New("models: no matching record found")
 
 // Precinct Model
 type Precinct struct {
-	ID   int    `json:"id" db:"id"`
-	Name string `json:"name" db:"name"`
+	ID        int    `json:"id" db:"id"`
+	Name      string `json:"name" db:"name"`
+	ShortName string `json:"short_name" db:"short_name"`
 }
 
 // MovingViolation Model
