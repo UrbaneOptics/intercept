@@ -5,14 +5,14 @@ user="nypdmv"
 #Note: you can also add -h hostname -U username in the below commands. 
  
 echo "Dropping tables"
-psql -d $database -U nypdmv << EOF 
+psql -d $database -U $user << EOF 
 DROP TABLE tallies;
 DROP TABLE moving_violations;
 DROP TABLE precincts;
 EOF
 
 echo "Loading tables"
-psql -d $database -U nypdmv << EOF 
+psql -d $database -U $user << EOF 
 CREATE TABLE precincts(
   id serial PRIMARY KEY,
   name VARCHAR(50) UNIQUE NOT NULL,
