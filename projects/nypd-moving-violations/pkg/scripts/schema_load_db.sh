@@ -6,9 +6,7 @@ user="nypdmv"
  
 echo "Dropping tables"
 psql -d $database -U $user << EOF 
-DROP TABLE tallies;
-DROP TABLE moving_violations;
-DROP TABLE precincts;
+DROP TABLE precincts, moving_violations, tallies;
 EOF
 
 echo "Loading tables"
