@@ -46,7 +46,21 @@ func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
 	w.Write(js)
 }
 
+func (app *application) getPrecincts(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		w.Header().Set("Allow", http.MethodGet)
+		app.clientError(w, http.StatusMethodNotAllowed)
+		return
+	}
+}
+
 func (app *application) health(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		w.Header().Set("Allow", http.MethodGet)
+		app.clientError(w, http.StatusMethodNotAllowed)
+		return
+	}
+
 	js, err := json.Marshal(config.HealthStatus{Status: "OK"})
 	if err != nil {
 		app.serverError(w, err)
