@@ -52,6 +52,21 @@ func (app *application) getPrecincts(w http.ResponseWriter, r *http.Request) {
 		app.clientError(w, http.StatusMethodNotAllowed)
 		return
 	}
+
+	pcts, err := app.precincts.List()
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+
+	js, err := json.Marshal(pcts)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
 }
 
 func (app *application) health(w http.ResponseWriter, r *http.Request) {
