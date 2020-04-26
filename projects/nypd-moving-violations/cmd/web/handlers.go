@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 	"strconv"
+
+	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/config"
 )
 
-// Define a home handler function which writes a byte slice
-// containing "Hello from Snippetbox" as the response body.
 func (app *application) home(w http.ResponseWriter, r *http.Request) {
 	// Check if the current request URL path exactly matches "/"
 	if r.URL.Path != "/" {
@@ -37,6 +37,17 @@ func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
 	}
 
 	js, err := json.Marshal(p)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(js)
+}
+
+func (app *application) health(w http.ResponseWriter, r *http.Request) {
+	js, err := json.Marshal(config.HealthStatus{Status: "OK"})
 	if err != nil {
 		app.serverError(w, err)
 		return
