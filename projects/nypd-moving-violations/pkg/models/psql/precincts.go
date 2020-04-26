@@ -13,7 +13,7 @@ type PrecinctModel struct {
 
 // Get a specific Precinct
 func (m *PrecinctModel) Get(id int) (*models.Precinct, error) {
-	stmt := `SELECT *
+	stmt := `SELECT id, name, short_name
 					 FROM precincts
 					 WHERE id = $1`
 
@@ -21,7 +21,7 @@ func (m *PrecinctModel) Get(id int) (*models.Precinct, error) {
 
 	row := m.DB.QueryRow(stmt, id)
 
-	err := row.Scan(&s.ID, &s.Name)
+	err := row.Scan(&s.ID, &s.Name, &s.ShortName)
 	if err != nil {
 		return nil, err
 	}
