@@ -18,9 +18,11 @@ type Config struct {
 }
 
 type application struct {
-	errorLog  *log.Logger
-	infoLog   *log.Logger
-	precincts *psql.PrecinctModel
+	errorLog         *log.Logger
+	infoLog          *log.Logger
+	precincts        *psql.PrecinctModel
+	tallies          *psql.TallyModel
+	movingViolations *psql.MovingViolationModel
 }
 
 func openDB(host string, port int, user string, pass string, name string) (*sql.DB, error) {
@@ -73,9 +75,11 @@ func main() {
 
 	// Initialize a new instance of app containing the dependencies
 	app := &application{
-		errorLog:  errorLog,
-		infoLog:   infoLog,
-		precincts: &psql.PrecinctModel{DB: db},
+		errorLog:         errorLog,
+		infoLog:          infoLog,
+		precincts:        &psql.PrecinctModel{DB: db},
+		tallies:          &psql.TallyModel{DB: db},
+		movingViolations: &psql.MovingViolationModel{DB: db},
 	}
 
 	srv := &http.Server{
