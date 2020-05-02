@@ -2,11 +2,11 @@ package main
 
 import "net/http"
 
-func (app *application) routes() *http.ServeMux {
+func (app *application) routes() http.Handler {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", app.home)
 
-	mux.HandleFunc("/precinct", app.showPrecinct)
+	mux.HandleFunc("/precinct", http.HandlerFunc(app.showPrecinct))
 	mux.HandleFunc("/precincts", app.getPrecincts)
 
 	mux.HandleFunc("/tally", app.showTally)
@@ -16,5 +16,5 @@ func (app *application) routes() *http.ServeMux {
 	mux.HandleFunc("/moving_violations", app.getMovingViolations)
 
 	mux.HandleFunc("/health", app.health)
-	return mux
+	return baseHeaders(mux)
 }

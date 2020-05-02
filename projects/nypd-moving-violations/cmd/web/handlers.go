@@ -1,7 +1,7 @@
 package main
 
 import (
-	"encoding/json"
+	"fmt"
 	"net/http"
 	"strconv"
 
@@ -19,9 +19,8 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 }
 
 func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		w.Header().Set("Allow", http.MethodGet)
-		app.clientError(w, http.StatusMethodNotAllowed)
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
 		return
 	}
 
@@ -36,20 +35,18 @@ func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
 		app.serverError(w, err)
 	}
 
-	js, err := json.Marshal(p)
+	js, err := app.fmtJSON(p)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	fmt.Fprint(w, string(js))
 }
 
 func (app *application) getPrecincts(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		w.Header().Set("Allow", http.MethodGet)
-		app.clientError(w, http.StatusMethodNotAllowed)
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
 		return
 	}
 
@@ -59,20 +56,18 @@ func (app *application) getPrecincts(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	js, err := json.Marshal(pcts)
+	js, err := app.fmtJSON(pcts)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	fmt.Fprint(w, string(js))
 }
 
 func (app *application) showTally(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		w.Header().Set("Allow", http.MethodGet)
-		app.clientError(w, http.StatusMethodNotAllowed)
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
 		return
 	}
 
@@ -87,21 +82,19 @@ func (app *application) showTally(w http.ResponseWriter, r *http.Request) {
 		app.serverError(w, err)
 	}
 
-	js, err := json.Marshal(p)
+	js, err := app.fmtJSON(p)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	fmt.Fprint(w, string(js))
 }
 
 // TODO: Implement with filter logic
 func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		w.Header().Set("Allow", http.MethodGet)
-		app.clientError(w, http.StatusMethodNotAllowed)
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
 		return
 	}
 
@@ -111,20 +104,18 @@ func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	js, err := json.Marshal(tallies)
+	js, err := app.fmtJSON(tallies)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	fmt.Fprint(w, string(js))
 }
 
 func (app *application) showMovingViolation(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		w.Header().Set("Allow", http.MethodGet)
-		app.clientError(w, http.StatusMethodNotAllowed)
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
 		return
 	}
 
@@ -139,20 +130,18 @@ func (app *application) showMovingViolation(w http.ResponseWriter, r *http.Reque
 		app.serverError(w, err)
 	}
 
-	js, err := json.Marshal(p)
+	js, err := app.fmtJSON(p)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	fmt.Fprint(w, string(js))
 }
 
 func (app *application) getMovingViolations(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		w.Header().Set("Allow", http.MethodGet)
-		app.clientError(w, http.StatusMethodNotAllowed)
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
 		return
 	}
 
@@ -162,29 +151,26 @@ func (app *application) getMovingViolations(w http.ResponseWriter, r *http.Reque
 		return
 	}
 
-	js, err := json.Marshal(movingViolations)
+	js, err := app.fmtJSON(movingViolations)
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	fmt.Fprint(w, string(js))
 }
 
 func (app *application) health(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		w.Header().Set("Allow", http.MethodGet)
-		app.clientError(w, http.StatusMethodNotAllowed)
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
 		return
 	}
 
-	js, err := json.Marshal(config.HealthStatus{Status: "OK"})
+	js, err := app.fmtJSON(config.HealthStatus{Status: "OK"})
 	if err != nil {
 		app.serverError(w, err)
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json")
-	w.Write(js)
+	fmt.Fprint(w, string(js))
 }
