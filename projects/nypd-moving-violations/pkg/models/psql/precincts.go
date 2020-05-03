@@ -13,7 +13,7 @@ type PrecinctModel struct {
 
 // Get a specific Precinct
 func (m *PrecinctModel) Get(id int) (*models.Precinct, error) {
-	stmt := `SELECT id, name, short_name
+	stmt := `SELECT id, name, short_name, is_aggregate
 					 FROM precincts
 					 WHERE id = $1`
 
@@ -21,7 +21,7 @@ func (m *PrecinctModel) Get(id int) (*models.Precinct, error) {
 
 	row := m.DB.QueryRow(stmt, id)
 
-	err := row.Scan(&s.ID, &s.Name, &s.ShortName)
+	err := row.Scan(&s.ID, &s.Name, &s.ShortName, &s.IsAggregate)
 	if err != nil {
 		return nil, err
 	}
@@ -29,9 +29,9 @@ func (m *PrecinctModel) Get(id int) (*models.Precinct, error) {
 	return s, nil
 }
 
-// Get a list of precincts
+// List returns a list of precincts
 func (m *PrecinctModel) List() ([]*models.Precinct, error) {
-	stmt := `SELECT id, name, short_name
+	stmt := `SELECT id, name, short_name, is_aggregate
 					 FROM precincts`
 
 	rows, err := m.DB.Query(stmt)
@@ -43,7 +43,7 @@ func (m *PrecinctModel) List() ([]*models.Precinct, error) {
 	precincts := []*models.Precinct{}
 	for rows.Next() {
 		p := &models.Precinct{}
-		err = rows.Scan(&p.ID, &p.Name, &p.ShortName)
+		err = rows.Scan(&p.ID, &p.Name, &p.ShortName, &p.IsAggregate)
 		if err != nil {
 			return nil, err
 		}
