@@ -3,6 +3,7 @@ package psql
 import (
 	"database/sql"
 
+	"github.com/lib/pq"
 	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/models"
 )
 
@@ -30,7 +31,31 @@ func (m *TallyModel) Get(id int) (*models.Tally, error) {
 }
 
 // List returns a list of tallies filtered by params
-// TODO: Implement
-func (m *TallyModel) List() ([]*models.Tally, error) {
-	return nil, nil
+func (m *TallyModel) List(precinctIDs []int) ([]*models.Tally, error) {
+	stmt := `SELECT id, count, month, year, precinct_id, moving_violation_id
+					 FROM tallies
+					 WHERE precinct_id=ANY($1)
+					`
+
+	rows, err := m.DB.Query(stmt, pq.Array(precinctIDs))
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	tallies := []*models.Tally{}
+	for rows.Next() {
+		t := &models.Tally{}
+		err = rows.Scan(&t.ID, &t.Count, &t.Month, &t.Year, &t.PrecinctID, &t.MovingViolationID)
+		if err != nil {
+			return nil, err
+		}
+		tallies = append(tallies, t)
+	}
+
+	if err = rows.Err(); err != nil {
+		return nil, err
+	}
+
+	return tallies, nil
 }

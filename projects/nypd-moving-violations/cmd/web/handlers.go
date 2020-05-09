@@ -1,12 +1,17 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"net/http"
 	"strconv"
 
 	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/config"
 )
+
+type TalliesRequest struct {
+	PrecinctIDs []int `json:"precinct_ids"`
+}
 
 func (app *application) home(w http.ResponseWriter, r *http.Request) {
 	// Check if the current request URL path exactly matches "/"
@@ -91,14 +96,23 @@ func (app *application) showTally(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, string(js))
 }
 
-// TODO: Implement with filter logic
 func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
 	err := app.handleInvalidRequest(w, r)
 	if err != nil {
 		return
 	}
 
-	tallies, err := app.tallies.List()
+	dec := json.NewDecoder(r.Body)
+	dec.DisallowUnknownFields()
+	var t TalliesRequest
+	err = dec.Decode(&t)
+	// TODO: Add better error handling. See https://www.alexedwards.net/blog/how-to-properly-parse-a-json-request-body
+	if err != nil {
+		msg := fmt.Sprintf("Request body contains badly-formed JSON (at position %d)", err)
+		http.Error(w, msg, http.StatusBadRequest)
+		return
+	}
+	tallies, err := app.tallies.List(t.PrecinctIDs)
 	if err != nil {
 		app.serverError(w, err)
 		return
@@ -110,7 +124,7 @@ func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprint(w, string(js))
+	app.sendGzipResponse(w, []byte(js))
 }
 
 func (app *application) showMovingViolation(w http.ResponseWriter, r *http.Request) {
