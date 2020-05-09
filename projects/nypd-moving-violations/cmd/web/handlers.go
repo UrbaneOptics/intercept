@@ -38,6 +38,7 @@ func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
 	p, err := app.precincts.Get(id)
 	if err != nil {
 		app.serverError(w, err)
+		return
 	}
 
 	js, err := app.fmtJSON(p)
