@@ -1,6 +1,7 @@
 package main
 
 import (
+	"compress/gzip"
 	"encoding/json"
 	"fmt"
 	"net/http"
@@ -32,6 +33,21 @@ func (app *application) fmtJSON(d interface{}) ([]byte, error) {
 	}
 
 	return js, nil
+}
+
+// Write a response compressed using GZIP
+func (app *application) sendGzipResponse(w http.ResponseWriter, res []byte) error {
+	w.Header().Set("Content-Encoding", "gzip")
+	zw := gzip.NewWriter(w)
+	_, err := zw.Write(res)
+	if err != nil {
+		return err
+	}
+	if err := zw.Close(); err != nil {
+		app.serverError(w, err)
+		return err
+	}
+	return nil
 }
 
 func (app *application) handleInvalidRequest(w http.ResponseWriter, r *http.Request) error {
