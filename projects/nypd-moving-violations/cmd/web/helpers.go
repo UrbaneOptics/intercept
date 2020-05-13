@@ -8,18 +8,30 @@ import (
 	"runtime/debug"
 )
 
+type ErrorJSON struct {
+	Message string `json:"message"`
+	Code    int    `json:"code"`
+}
+
+func JSONError(w http.ResponseWriter, err string, code int) {
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	w.Header().Set("X-Content-Type-Options", "nosniff")
+	w.WriteHeader(code)
+	json.NewEncoder(w).Encode(ErrorJSON{Message: err, Code: code})
+}
+
 // The serverError helper writes an error message and stack trace to the errorLog,
 // then sends a generic 500 internal Server Error repsonse to the user.
 func (app *application) serverError(w http.ResponseWriter, err error) {
 	trace := fmt.Sprintf("%s\n%s", err.Error(), debug.Stack())
 	app.errorLog.Output(2, trace)
 
-	http.Error(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
+	JSONError(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 }
 
 // The clientError helper sends a specific status code and corresponding description
 func (app *application) clientError(w http.ResponseWriter, status int) {
-	http.Error(w, http.StatusText(status), status)
+	JSONError(w, http.StatusText(status), status)
 }
 
 func (app *application) notFound(w http.ResponseWriter) {

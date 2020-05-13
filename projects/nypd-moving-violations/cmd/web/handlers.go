@@ -17,6 +17,11 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	err := app.handleInvalidRequest(w, r)
+	if err != nil {
+		return
+	}
+
 	w.Write([]byte("Hello world"))
 }
 
@@ -83,6 +88,7 @@ func (app *application) showTally(w http.ResponseWriter, r *http.Request) {
 	p, err := app.tallies.Get(id)
 	if err != nil {
 		app.serverError(w, err)
+		return
 	}
 
 	js, err := app.fmtJSON(p)
