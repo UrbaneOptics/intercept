@@ -6,7 +6,7 @@ import (
 	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/models"
 )
 
-// MovingViolation type which wraps a sql.DB connection pool.
+// MovingViolationModel type which wraps a sql.DB connection pool.
 type MovingViolationModel struct {
 	DB *sql.DB
 }
@@ -33,9 +33,6 @@ func (m *MovingViolationModel) Get(id int) (*models.Tally, error) {
 func (m *MovingViolationModel) List() ([]*models.MovingViolation, error) {
 	stmt := `SELECT id, name FROM moving_violations`
 
-	// m := &models.MovingViolation{}
-
-	// row
 	rows, err := m.DB.Query(stmt)
 	if err != nil {
 		return nil, err
