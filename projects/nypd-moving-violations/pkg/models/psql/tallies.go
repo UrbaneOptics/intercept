@@ -5,6 +5,7 @@ import (
 
 	"github.com/lib/pq"
 	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/models"
+	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/queries"
 )
 
 // TallyModel type which wraps a sql.DB connection pool.
@@ -31,13 +32,15 @@ func (m *TallyModel) Get(id int) (*models.Tally, error) {
 }
 
 // List returns a list of tallies filtered by params
-func (m *TallyModel) List(precinctIDs []int) ([]*models.Tally, error) {
+func (m *TallyModel) List(req *queries.TalliesRequest) ([]*models.Tally, error) {
 	stmt := `SELECT id, count, month, year, precinct_id, moving_violation_id
 					 FROM tallies
 					 WHERE precinct_id=ANY($1)
+					 OFFSET $2 ROWS
+					 LIMIT $3
 					`
 
-	rows, err := m.DB.Query(stmt, pq.Array(precinctIDs))
+	rows, err := m.DB.Query(stmt, pq.Array(req.PrecinctIDs), (req.Page-1)*req.PerPage, req.PerPage)
 	if err != nil {
 		return nil, err
 	}

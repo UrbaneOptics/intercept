@@ -7,11 +7,8 @@ import (
 	"strconv"
 
 	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/config"
+	"urbaneoptics.com/intercept/nypd-moving-violations/pkg/queries"
 )
-
-type TalliesRequest struct {
-	PrecinctIDs []int `json:"precinct_ids"`
-}
 
 func (app *application) home(w http.ResponseWriter, r *http.Request) {
 	// Check if the current request URL path exactly matches "/"
@@ -105,7 +102,7 @@ func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
 
 	dec := json.NewDecoder(r.Body)
 	dec.DisallowUnknownFields()
-	var t TalliesRequest
+	var t queries.TalliesRequest
 	err = dec.Decode(&t)
 	// TODO: Add better error handling. See https://www.alexedwards.net/blog/how-to-properly-parse-a-json-request-body
 	if err != nil {
@@ -113,7 +110,8 @@ func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, msg, http.StatusBadRequest)
 		return
 	}
-	tallies, err := app.tallies.List(t.PrecinctIDs)
+
+	tallies, err := app.tallies.List(&t)
 	if err != nil {
 		app.serverError(w, err)
 		return
