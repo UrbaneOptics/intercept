@@ -1,52 +1,48 @@
-"Moving Violations",,
-"Queens North",,
-"   March ",,
-"Offense Description","MTD 2020","YTD 2020"
-"Backing Unsafely",3,9
-"Bike Lane",0,16
-"Bus Lane",29,46
-"Cell Phone",360,1303
-"Commercial Veh on Pkwy",0,0
-"Cruising For Passengers",0,0
-"Disobey Traffic Control Device",1186,4712
-"Driving Too Slow",0,2
+Queens North,,
+Backing Unsafely,3,9
+Bike Lane,0,16
+Bus Lane,29,46
+Cell Phone,360,1303
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,1186,4712
+Driving Too Slow,0,2
 Equipment,164,523
-"Equipment (Other)",0,3
-"Excessive Noise",0,0
-"Fail to Keep Right",0,4
-"Fail to yield Right of Way to Pedestrian",727,2682
-"Failure to Signal",48,180
-"Failure to yield Right of Way to Vehicle",1,1
-"Following Too Closely",0,2
-"Improper Passing",8,31
-"Improper Taxi Pickup",0,0
-"Improper Turn",286,1121
-"Improper/Missing Plates",6,19
-"Lamps and Other Equipment on Bicycle",1,2
-"Motorcycle (Other)",3,20
-"Not Giving R of W to Veh.",7,29
-"Obstructed Plate",40,136
-"One Way Street",8,42
+Equipment (Other),0,3
+Excessive Noise,0,0
+Fail to Keep Right,0,4
+Fail to yield Right of Way to Pedestrian,727,2682
+Failure to Signal,48,180
+Failure to yield Right of Way to Vehicle,1,1
+Following Too Closely,0,2
+Improper Passing,8,31
+Improper Taxi Pickup,0,0
+Improper Turn,286,1121
+Improper/Missing Plates,6,19
+Lamps and Other Equipment on Bicycle,1,2
+Motorcycle (Other),3,20
+Not Giving R of W to Veh.,7,29
+Obstructed Plate,40,136
+One Way Street,8,42
 Overheight,0,0
 Overlength,0,0
 Overweight,0,0
 Overwidth,0,0
-"Pavement Markings",1,2
-"Red Light",333,1583
-"School Bus",32,50
-"Scooter In NYC",0,0
-"Seat Belt",522,1880
+Pavement Markings,1,2
+Red Light,333,1583
+School Bus,32,50
+Scooter In NYC,0,0
+Seat Belt,522,1880
 Speeding,880,3199
 Spillback,1,6
-"TBTA Rule",0,0
+TBTA Rule,0,0
 Tints,243,912
-"TLC (Other)",0,0
-"Truck Route",19,79
+TLC (Other),0,0
+Truck Route,19,79
 Uninspected,9,31
 Uninsured,36,114
-"Unlicensed Operator",378,1366
+Unlicensed Operator,378,1366
 Unregistered,56,143
-"Unsafe Lane Change",8,49
-"Other Movers",575,2481
-"PBQNTOTAL Movers ",5970,22778
-"* All figures are preliminary and subject to change.",,
+Unsafe Lane Change,8,49
+Other Movers,575,2481
+TOTAL Movers,5970,22778

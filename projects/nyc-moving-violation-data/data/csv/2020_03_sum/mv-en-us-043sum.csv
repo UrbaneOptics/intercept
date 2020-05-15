@@ -1,52 +1,48 @@
-"Moving Violations",,
-"43rd Precinct",,
-"   March ",,
-"Offense Description","MTD 2020","YTD 2020"
-"Backing Unsafely",0,2
-"Bike Lane",0,12
-"Bus Lane",0,0
-"Cell Phone",28,55
-"Commercial Veh on Pkwy",0,0
-"Cruising For Passengers",0,0
-"Disobey Traffic Control Device",55,254
-"Driving Too Slow",0,0
+43rd Precinct,,
+Backing Unsafely,0,2
+Bike Lane,0,12
+Bus Lane,0,0
+Cell Phone,28,55
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,55,254
+Driving Too Slow,0,0
 Equipment,12,74
-"Equipment (Other)",0,0
-"Excessive Noise",0,0
-"Fail to Keep Right",0,0
-"Fail to yield Right of Way to Pedestrian",64,260
-"Failure to Signal",11,33
-"Failure to yield Right of Way to Vehicle",0,0
-"Following Too Closely",1,3
-"Improper Passing",1,7
-"Improper Taxi Pickup",0,0
-"Improper Turn",78,276
-"Improper/Missing Plates",0,2
-"Lamps and Other Equipment on Bicycle",0,0
-"Motorcycle (Other)",0,0
-"Not Giving R of W to Veh.",3,8
-"Obstructed Plate",11,48
-"One Way Street",0,6
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,64,260
+Failure to Signal,11,33
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,1,3
+Improper Passing,1,7
+Improper Taxi Pickup,0,0
+Improper Turn,78,276
+Improper/Missing Plates,0,2
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,3,8
+Obstructed Plate,11,48
+One Way Street,0,6
 Overheight,0,0
 Overlength,0,0
 Overweight,0,0
 Overwidth,0,0
-"Pavement Markings",0,1
-"Red Light",9,73
-"School Bus",0,0
-"Scooter In NYC",0,0
-"Seat Belt",5,19
+Pavement Markings,0,1
+Red Light,9,73
+School Bus,0,0
+Scooter In NYC,0,0
+Seat Belt,5,19
 Speeding,102,247
 Spillback,0,0
-"TBTA Rule",0,0
+TBTA Rule,0,0
 Tints,22,77
-"TLC (Other)",0,0
-"Truck Route",0,0
+TLC (Other),0,0
+Truck Route,0,0
 Uninspected,2,25
 Uninsured,9,63
-"Unlicensed Operator",36,154
+Unlicensed Operator,36,154
 Unregistered,17,86
-"Unsafe Lane Change",21,45
-"Other Movers",42,119
-"043TOTAL Movers ",529,1949
-"* All figures are preliminary and subject to change.",,
+Unsafe Lane Change,21,45
+Other Movers,42,119
+TOTAL Movers,529,1949

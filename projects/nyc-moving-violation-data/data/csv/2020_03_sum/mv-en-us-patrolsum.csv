@@ -1,52 +1,48 @@
-"Moving Violations",,
-"Patrol Bureau",,
-"   March ",,
-"Offense Description","MTD 2020","YTD 2020"
-"Backing Unsafely",33,127
-"Bike Lane",150,567
-"Bus Lane",360,682
-"Cell Phone",1890,6569
-"Commercial Veh on Pkwy",22,77
-"Cruising For Passengers",0,0
-"Disobey Traffic Control Device",9288,36694
-"Driving Too Slow",1,5
+Patrol Bureau,,
+Backing Unsafely,33,127
+Bike Lane,150,567
+Bus Lane,360,682
+Cell Phone,1890,6569
+Commercial Veh on Pkwy,22,77
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,9288,36694
+Driving Too Slow,1,5
 Equipment,998,4053
-"Equipment (Other)",1,10
-"Excessive Noise",0,1
-"Fail to Keep Right",6,20
-"Fail to yield Right of Way to Pedestrian",4393,18225
-"Failure to Signal",757,2972
-"Failure to yield Right of Way to Vehicle",5,10
-"Following Too Closely",16,57
-"Improper Passing",106,359
-"Improper Taxi Pickup",11,40
-"Improper Turn",3987,15881
-"Improper/Missing Plates",48,195
-"Lamps and Other Equipment on Bicycle",4,12
-"Motorcycle (Other)",23,94
-"Not Giving R of W to Veh.",60,226
-"Obstructed Plate",385,1387
-"One Way Street",126,594
+Equipment (Other),1,10
+Excessive Noise,0,1
+Fail to Keep Right,6,20
+Fail to yield Right of Way to Pedestrian,4393,18225
+Failure to Signal,757,2972
+Failure to yield Right of Way to Vehicle,5,10
+Following Too Closely,16,57
+Improper Passing,106,359
+Improper Taxi Pickup,11,40
+Improper Turn,3987,15881
+Improper/Missing Plates,48,195
+Lamps and Other Equipment on Bicycle,4,12
+Motorcycle (Other),23,94
+Not Giving R of W to Veh.,60,226
+Obstructed Plate,385,1387
+One Way Street,126,594
 Overheight,1,1
 Overlength,7,12
 Overweight,1,2
 Overwidth,1,1
-"Pavement Markings",9,31
-"Red Light",3728,14906
-"School Bus",406,601
-"Scooter In NYC",2,6
-"Seat Belt",3068,10293
+Pavement Markings,9,31
+Red Light,3728,14906
+School Bus,406,601
+Scooter In NYC,2,6
+Seat Belt,3068,10293
 Speeding,4957,18751
 Spillback,45,178
-"TBTA Rule",0,0
+TBTA Rule,0,0
 Tints,1802,7005
-"TLC (Other)",0,0
-"Truck Route",149,825
+TLC (Other),0,0
+Truck Route,149,825
 Uninspected,106,424
 Uninsured,482,1838
-"Unlicensed Operator",2421,8783
+Unlicensed Operator,2421,8783
 Unregistered,533,1925
-"Unsafe Lane Change",107,462
-"Other Movers",4171,15846
-"PATROLTOTAL Movers ",44666,170747
-"* All figures are preliminary and subject to change.",,
+Unsafe Lane Change,107,462
+Other Movers,4171,15846
+TOTAL Movers,44666,170747
