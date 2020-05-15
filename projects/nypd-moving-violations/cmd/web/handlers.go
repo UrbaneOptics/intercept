@@ -108,7 +108,7 @@ func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
 
 	dec := json.NewDecoder(r.Body)
 	dec.DisallowUnknownFields()
-	var t queries.TalliesRequest
+	t := queries.NewTalliesRequest()
 	err = dec.Decode(&t)
 	// TODO: Add better error handling. See https://www.alexedwards.net/blog/how-to-properly-parse-a-json-request-body
 	if err != nil {
