@@ -22,7 +22,23 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Write([]byte("Hello world"))
+	// w.Write([]byte("Hello world"))
+	var routes []string
+	fmtRoutes := append(routes, "/precinct",
+		"/precincts",
+		"/tally",
+		"/tallies",
+		"/moving_violation",
+		"/moving_violations",
+		"/health")
+	js, err := app.fmtJSON(fmtRoutes)
+	if err != nil {
+		app.serverError(w, err)
+		return
+	}
+
+	fmt.Fprint(w, string(js))
+
 }
 
 func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
