@@ -36,11 +36,20 @@ func (m *TallyModel) List(req *queries.TalliesRequest) ([]*models.Tally, error) 
 	stmt := `SELECT id, count, month, year, precinct_id, moving_violation_id
 					 FROM tallies
 					 WHERE precinct_id=ANY($1)
-					 OFFSET $2 ROWS
-					 LIMIT $3
+					 AND moving_violation_id=ANY($2)
+					 AND year >= $3
+					 AND year <= $4
+					 OFFSET $5 ROWS
+					 LIMIT $6
 					`
 
-	rows, err := m.DB.Query(stmt, pq.Array(req.PrecinctIDs), (req.Page-1)*req.PerPage, req.PerPage)
+	rows, err := m.DB.Query(stmt,
+		pq.Array(req.PrecinctIDs),
+		pq.Array(req.MovingViolationIDs),
+		req.StartYear,
+		req.EndYear,
+		(req.Page-1)*req.PerPage,
+		req.PerPage)
 	if err != nil {
 		return nil, err
 	}
