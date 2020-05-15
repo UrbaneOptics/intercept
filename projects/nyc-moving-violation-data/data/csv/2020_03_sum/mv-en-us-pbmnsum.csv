@@ -1,0 +1,52 @@
+"Moving Violations",,
+"Manhattan North",,
+"   March ",,
+"Offense Description","MTD 2020","YTD 2020"
+"Backing Unsafely",1,14
+"Bike Lane",5,33
+"Bus Lane",52,128
+"Cell Phone",219,967
+"Commercial Veh on Pkwy",0,1
+"Cruising For Passengers",0,0
+"Disobey Traffic Control Device",1438,5715
+"Driving Too Slow",0,0
+Equipment,47,246
+"Equipment (Other)",0,0
+"Excessive Noise",0,0
+"Fail to Keep Right",1,1
+"Fail to yield Right of Way to Pedestrian",768,3173
+"Failure to Signal",16,98
+"Failure to yield Right of Way to Vehicle",2,2
+"Following Too Closely",1,1
+"Improper Passing",3,6
+"Improper Taxi Pickup",1,5
+"Improper Turn",824,3784
+"Improper/Missing Plates",3,11
+"Lamps and Other Equipment on Bicycle",0,1
+"Motorcycle (Other)",1,5
+"Not Giving R of W to Veh.",7,14
+"Obstructed Plate",29,113
+"One Way Street",25,130
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+"Pavement Markings",2,2
+"Red Light",782,2719
+"School Bus",118,134
+"Scooter In NYC",1,1
+"Seat Belt",269,1121
+Speeding,511,2095
+Spillback,4,28
+"TBTA Rule",0,0
+Tints,215,1015
+"TLC (Other)",0,0
+"Truck Route",1,67
+Uninspected,3,22
+Uninsured,13,62
+"Unlicensed Operator",169,590
+Unregistered,22,111
+"Unsafe Lane Change",8,41
+"Other Movers",348,1521
+"PBMNTOTAL Movers ",5909,23977
+"* All figures are preliminary and subject to change.",,

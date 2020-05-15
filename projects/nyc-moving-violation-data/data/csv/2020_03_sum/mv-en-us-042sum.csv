@@ -1,0 +1,52 @@
+"Moving Violations",,
+"42nd Precinct",,
+"   March ",,
+"Offense Description","MTD 2020","YTD 2020"
+"Backing Unsafely",0,1
+"Bike Lane",24,39
+"Bus Lane",0,1
+"Cell Phone",11,42
+"Commercial Veh on Pkwy",0,0
+"Cruising For Passengers",0,0
+"Disobey Traffic Control Device",125,594
+"Driving Too Slow",0,0
+Equipment,8,52
+"Equipment (Other)",0,0
+"Excessive Noise",0,0
+"Fail to Keep Right",0,0
+"Fail to yield Right of Way to Pedestrian",113,177
+"Failure to Signal",13,69
+"Failure to yield Right of Way to Vehicle",0,0
+"Following Too Closely",0,0
+"Improper Passing",0,1
+"Improper Taxi Pickup",0,0
+"Improper Turn",58,255
+"Improper/Missing Plates",1,2
+"Lamps and Other Equipment on Bicycle",0,0
+"Motorcycle (Other)",0,0
+"Not Giving R of W to Veh.",0,4
+"Obstructed Plate",6,20
+"One Way Street",3,5
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+"Pavement Markings",0,0
+"Red Light",43,165
+"School Bus",5,12
+"Scooter In NYC",0,0
+"Seat Belt",22,132
+Speeding,52,140
+Spillback,0,0
+"TBTA Rule",0,0
+Tints,9,18
+"TLC (Other)",0,0
+"Truck Route",0,1
+Uninspected,4,14
+Uninsured,9,33
+"Unlicensed Operator",49,171
+Unregistered,12,48
+"Unsafe Lane Change",0,0
+"Other Movers",34,117
+"042TOTAL Movers ",601,2113
+"* All figures are preliminary and subject to change.",,
