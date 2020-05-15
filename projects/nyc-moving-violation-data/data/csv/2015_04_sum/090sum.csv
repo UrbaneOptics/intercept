@@ -1,0 +1,36 @@
+90th Precinct,,
+Backing Unsafely,3,4
+Brake Lights (Defect.or Improper),11,74
+"Bus Lane, Driving in",0,0
+Cell Phone,77,280
+Commercial Veh on Pkwy,0,0
+Defective Brakes,1,1
+Disobey Steady Red Signal,124,339
+Disobey Traffic Control Device,47,270
+Equipment (Other),0,1
+Fail to Keep Right,1,1
+Fail to Signal,2,30
+Following Too Closely,1,2
+Headlights (Defect. or Improper),7,98
+Improper Lights,3,4
+Improper Passing,3,8
+Improper Turn,68,258
+Improper/Missing Plates,0,0
+Not Giving R of W to Pedes.,23,73
+Not Giving R of W to Veh.,2,10
+One Way Street,82,173
+Pavement Markings,4,17
+Safety Belt,156,541
+"School Bus, Passing Stopped",3,6
+Speeding,26,100
+Spillback,1,2
+Tinted Windows,45,163
+Truck Routes,3,13
+U-Turn,0,0
+Uninspected,0,2
+Uninsured,55,240
+Unlicensed Operator,37,143
+Unregistered,8,20
+Unsafe Lane Change,0,2
+Other Movers,84,294
+TOTAL Movers,877,3169

@@ -1,0 +1,36 @@
+17th Precinct,,
+Backing Unsafely,3,3
+Brake Lights (Defect.or Improper),56,444
+"Bus Lane, Driving in",0,5
+Cell Phone,84,224
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,3
+Disobey Sign,63,277
+Equipment (Other),5,58
+Fail to Keep Right,0,2
+Fail to Signal,141,541
+Fail to Stop on Signal,96,347
+Following Too Closely,2,4
+Headlights (Defect. or Improper),24,225
+Improper Lights,0,0
+Improper Passing,53,145
+Improper Turn,454,1055
+Improper/Missing Plates,0,0
+Not Giving R of W to Pedes.,168,267
+Not Giving R of W to Veh.,0,3
+One Way Street,5,16
+Pavement Markings,312,800
+Safety Belt,50,148
+"School Bus, Passing Stopped",1,9
+Speeding,38,56
+Spillback,10,70
+Tinted Windows,7,30
+Truck Routes,5,21
+U-Turn,1,6
+Uninspected,0,3
+Uninsured,15,125
+Unlicensed Operator,19,72
+Unregistered,3,28
+Unsafe Lane Change,283,856
+Other Movers,112,503
+TOTAL Movers,2010,6346

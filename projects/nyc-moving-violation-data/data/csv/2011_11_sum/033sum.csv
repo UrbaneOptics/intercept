@@ -1,0 +1,36 @@
+33rd Precinct,,
+Backing Unsafely,2,16
+Brake Lights (Defect.or  Improper),18,198
+"Bus Lane, Driving in",0,0
+Cell Phone,97,1500
+Commercial Veh on Pkwy,0,4
+Defective Brakes,1,22
+Disobey Sign,23,605
+Equipment (Other),3,48
+Fail to Keep Right,0,5
+Fail to Signal,5,59
+Fail to Stop on Signal,0,170
+Following Too Closely,0,4
+Headlights (Defect. or Improper),18,324
+Improper Lights,0,3
+Improper Passing,0,15
+Improper Turn,10,204
+Improper/Missing Plates,7,32
+Not Giving R of W to Pedes.,5,49
+Not Giving R of W to Veh.,0,4
+One Way Street,1,25
+Pavement Markings,2,39
+Safety Belt,31,1068
+"School Bus, Passing Stopped",1,51
+Speeding,5,102
+Spillback,0,31
+Tinted Windows,30,284
+Truck Routes,22,447
+U-Turn,1,43
+Uninspected,1,37
+Uninsured,24,344
+Unlicensed Operator,12,322
+Unregistered,5,108
+Unsafe Lane Change,0,20
+Other Movers,25,178
+TOTAL Movers,349,6361

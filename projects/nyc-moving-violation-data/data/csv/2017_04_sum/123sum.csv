@@ -1,0 +1,38 @@
+123rd Precinct,,
+Backing Unsafely,1,2
+Brake Lights (Defect.or Improper),3,6
+"Bus Lane, Driving in",0,0
+Cell Phone,81,349
+Commercial Veh on Pkwy,0,1
+Defective Brakes,0,0
+Disobey Steady Red Signal,55,204
+Disobey Traffic Control Device,118,466
+Equipment (Other),0,6
+Fail to Keep Right,0,3
+Fail to Signal,57,273
+Following Too Closely,10,32
+Headlights (Defect. or Improper),9,61
+Improper Lights,0,3
+Improper Passing,2,18
+Improper Turn,9,36
+Improper/Missing Plates,9,36
+Lamps and Other Equipment on Bicycle,0,0
+Not Giving R of W to Pedes.,10,38
+Not Giving R of W to Veh.,7,57
+OBSTRUCTED PLATE,13,53
+One Way Street,2,4
+Pavement Markings,32,184
+Safety Belt,112,380
+"School Bus, Passing Stopped",10,27
+Speeding,275,1130
+Spillback,0,1
+Tinted Windows,61,334
+Truck Routes,0,0
+U-Turn,4,29
+Uninspected,14,65
+Uninsured,48,180
+Unlicensed Operator,57,276
+Unregistered,16,67
+Unsafe Lane Change,2,12
+Other Movers,76,224
+TOTAL Movers,1093,4557

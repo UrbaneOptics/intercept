@@ -1,0 +1,37 @@
+13th Precinct,,
+Backing Unsafely,0,7
+Brake Lights (Defect.or Improper),2,30
+"Bus Lane, Driving in",0,3
+Cell Phone,13,243
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,67,654
+Disobey Traffic Control Device,317,2295
+Equipment (Other),0,4
+Fail to Keep Right,0,2
+Fail to Signal,0,46
+Following Too Closely,1,6
+Headlights (Defect. or Improper),2,7
+Improper Lights,0,0
+Improper Passing,12,80
+Improper Turn,200,1763
+Improper/Missing Plates,0,10
+Not Giving R of W to Pedes.,39,372
+Not Giving R of W to Veh.,0,28
+OBSTRUCTED PLATE,2,9
+One Way Street,3,35
+Pavement Markings,0,4
+Safety Belt,15,114
+"School Bus, Passing Stopped",1,2
+Speeding,20,71
+Spillback,47,345
+Tinted Windows,14,141
+Truck Routes,4,4
+U-Turn,4,74
+Uninspected,1,2
+Uninsured,12,141
+Unlicensed Operator,25,157
+Unregistered,4,40
+Unsafe Lane Change,5,98
+Other Movers,49,569
+TOTAL Movers,859,7356

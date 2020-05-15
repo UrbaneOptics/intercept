@@ -1,0 +1,36 @@
+MTS Precinct,,
+Backing Unsafely,1,6
+Brake Lights (Defect.or  Improper),44,192
+"Bus Lane, Driving in",0,0
+Cell Phone,241,1210
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Sign,267,1685
+Equipment (Other),0,0
+Fail to Keep Right,0,0
+Fail to Signal,9,98
+Fail to Stop on Signal,25,175
+Following Too Closely,0,2
+Headlights (Defect. or Improper),53,411
+Improper Lights,0,0
+Improper Passing,0,0
+Improper Turn,162,893
+Improper/Missing Plates,0,8
+Not Giving R of W to Pedes.,53,336
+Not Giving R of W to Veh.,0,0
+One Way Street,7,65
+Pavement Markings,0,3
+Safety Belt,243,1269
+"School Bus, Passing Stopped",0,6
+Speeding,0,0
+Spillback,40,451
+Tinted Windows,69,348
+Truck Routes,0,78
+U-Turn,30,228
+Uninspected,7,75
+Uninsured,89,467
+Unlicensed Operator,41,237
+Unregistered,5,54
+Unsafe Lane Change,11,47
+Other Movers,142,681
+TOTAL Movers,1539,9025

@@ -1,0 +1,36 @@
+109th Precinct,,
+Backing Unsafely,0,4
+Brake Lights (Defect.or Improper),2,26
+"Bus Lane, Driving in",0,0
+Cell Phone,250,1350
+Commercial Veh on Pkwy,1,1
+Defective Brakes,0,1
+Disobey Sign,780,3995
+Equipment (Other),28,76
+Fail to Keep Right,2,6
+Fail to Signal,10,74
+Fail to Stop on Signal,111,617
+Following Too Closely,1,7
+Headlights (Defect. or Improper),1,16
+Improper Lights,0,0
+Improper Passing,4,25
+Improper Turn,86,330
+Improper/Missing Plates,17,48
+Not Giving R of W to Pedes.,39,480
+Not Giving R of W to Veh.,9,64
+One Way Street,3,20
+Pavement Markings,18,128
+Safety Belt,534,2156
+"School Bus, Passing Stopped",8,48
+Speeding,33,322
+Spillback,6,45
+Tinted Windows,161,836
+Truck Routes,5,79
+U-Turn,11,47
+Uninspected,8,51
+Uninsured,25,194
+Unlicensed Operator,127,679
+Unregistered,23,108
+Unsafe Lane Change,14,31
+Other Movers,126,594
+TOTAL Movers,2443,12458

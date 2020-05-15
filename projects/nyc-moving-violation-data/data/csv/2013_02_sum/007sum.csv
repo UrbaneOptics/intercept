@@ -1,0 +1,36 @@
+7th Precinct,,
+Backing Unsafely,1,2
+Brake Lights (Defect.or  Improper),0,0
+"Bus Lane, Driving in",0,0
+Cell Phone,116,220
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,1
+Disobey Sign,166,321
+Equipment (Other),0,0
+Fail to Keep Right,0,1
+Fail to Signal,2,10
+Fail to Stop on Signal,34,64
+Following Too Closely,0,0
+Headlights (Defect. or Improper),0,0
+Improper Lights,14,29
+Improper Passing,0,0
+Improper Turn,87,129
+Improper/Missing Plates,0,0
+Not Giving R of W to Pedes.,21,37
+Not Giving R of W to Veh.,1,1
+One Way Street,0,0
+Pavement Markings,0,0
+Safety Belt,65,120
+"School Bus, Passing Stopped",1,1
+Speeding,0,6
+Spillback,29,43
+Tinted Windows,24,56
+Truck Routes,7,17
+U-Turn,0,0
+Uninspected,4,19
+Uninsured,11,18
+Unlicensed Operator,11,23
+Unregistered,4,9
+Unsafe Lane Change,0,1
+Other Movers,30,86
+TOTAL Movers,628,1214

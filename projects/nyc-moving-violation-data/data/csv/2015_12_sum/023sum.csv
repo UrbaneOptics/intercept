@@ -1,0 +1,36 @@
+23rd Precinct,,
+Backing Unsafely,1,8
+Brake Lights (Defect.or Improper),1,55
+"Bus Lane, Driving in",0,8
+Cell Phone,96,1800
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,57,907
+Disobey Traffic Control Device,78,779
+Equipment (Other),9,143
+Fail to Keep Right,0,2
+Fail to Signal,5,63
+Following Too Closely,0,1
+Headlights (Defect. or Improper),1,68
+Improper Lights,0,0
+Improper Passing,2,51
+Improper Turn,43,870
+Improper/Missing Plates,1,44
+Not Giving R of W to Pedes.,66,648
+Not Giving R of W to Veh.,1,9
+One Way Street,3,59
+Pavement Markings,1,21
+Safety Belt,31,540
+"School Bus, Passing Stopped",2,53
+Speeding,4,251
+Spillback,0,1
+Tinted Windows,23,135
+Truck Routes,0,53
+U-Turn,0,3
+Uninspected,1,5
+Uninsured,5,41
+Unlicensed Operator,14,151
+Unregistered,1,22
+Unsafe Lane Change,5,34
+Other Movers,17,287
+TOTAL Movers,468,7112

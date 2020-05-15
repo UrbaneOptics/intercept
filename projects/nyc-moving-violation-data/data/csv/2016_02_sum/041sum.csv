@@ -1,0 +1,36 @@
+41st Precinct,,
+Backing Unsafely,1,8
+Brake Lights (Defect.or Improper),16,23
+"Bus Lane, Driving in",0,0
+Cell Phone,18,37
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,39,86
+Disobey Traffic Control Device,222,488
+Equipment (Other),9,11
+Fail to Keep Right,0,0
+Fail to Signal,6,13
+Following Too Closely,0,0
+Headlights (Defect. or Improper),24,42
+Improper Lights,1,2
+Improper Passing,0,3
+Improper Turn,44,114
+Improper/Missing Plates,5,18
+Not Giving R of W to Pedes.,19,56
+Not Giving R of W to Veh.,0,2
+One Way Street,0,2
+Pavement Markings,9,23
+Safety Belt,37,84
+"School Bus, Passing Stopped",5,17
+Speeding,94,155
+Spillback,4,10
+Tinted Windows,174,352
+Truck Routes,32,74
+U-Turn,7,16
+Uninspected,3,5
+Uninsured,35,102
+Unlicensed Operator,44,99
+Unregistered,19,54
+Unsafe Lane Change,0,5
+Other Movers,16,37
+TOTAL Movers,883,1938

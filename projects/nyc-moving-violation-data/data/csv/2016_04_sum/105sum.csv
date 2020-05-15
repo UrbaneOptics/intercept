@@ -1,0 +1,36 @@
+105th Precinct,,
+Backing Unsafely,1,5
+Brake Lights (Defect.or Improper),17,50
+"Bus Lane, Driving in",0,0
+Cell Phone,85,294
+Commercial Veh on Pkwy,0,1
+Defective Brakes,0,0
+Disobey Steady Red Signal,35,91
+Disobey Traffic Control Device,246,857
+Equipment (Other),0,0
+Fail to Keep Right,0,0
+Fail to Signal,20,110
+Following Too Closely,0,2
+Headlights (Defect. or Improper),3,39
+Improper Lights,1,4
+Improper Passing,7,14
+Improper Turn,41,213
+Improper/Missing Plates,0,3
+Not Giving R of W to Pedes.,19,80
+Not Giving R of W to Veh.,3,10
+One Way Street,2,4
+Pavement Markings,66,270
+Safety Belt,128,453
+"School Bus, Passing Stopped",10,18
+Speeding,50,262
+Spillback,0,0
+Tinted Windows,180,689
+Truck Routes,0,2
+U-Turn,13,39
+Uninspected,5,31
+Uninsured,36,205
+Unlicensed Operator,70,275
+Unregistered,9,31
+Unsafe Lane Change,2,7
+Other Movers,68,215
+TOTAL Movers,1117,4274

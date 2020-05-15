@@ -1,0 +1,48 @@
+Brooklyn North,,
+Backing Unsafely,6,39
+Bike Lane,9,61
+Bus Lane,15,137
+Cell Phone,232,1674
+Commercial Veh on Pkwy,4,28
+Cruising For Passengers,0,3
+Disobey Traffic Control Device,1484,13087
+Driving Too Slow,0,1
+Equipment,260,1652
+Equipment (Other),2,5
+Excessive Noise,0,0
+Fail to Keep Right,2,7
+Fail to yield Right of Way to Pedestrian,324,2576
+Failure to Signal,126,1271
+Failure to yield Right of Way to Vehicle,3,5
+Following Too Closely,0,11
+Improper Passing,54,246
+Improper Taxi Pickup,0,3
+Improper Turn,432,3066
+Improper/Missing Plates,12,48
+Lamps and Other Equipment on Bicycle,0,1
+Motorcycle (Other),24,97
+Not Giving R of W to Veh.,5,47
+Obstructed Plate,70,392
+One Way Street,31,361
+Overheight,0,0
+Overlength,0,0
+Overweight,0,1
+Overwidth,0,0
+Pavement Markings,0,9
+Red Light,631,5591
+School Bus,6,56
+Scooter In NYC,2,5
+Seat Belt,632,3803
+Speeding,363,2984
+Spillback,5,35
+TBTA Rule,0,0
+Tints,251,2891
+TLC (Other),0,0
+Truck Route,30,199
+Uninspected,22,137
+Uninsured,85,730
+Unlicensed Operator,451,3196
+Unregistered,107,675
+Unsafe Lane Change,9,64
+Other Movers,700,5156
+TOTAL Movers,6389,50350

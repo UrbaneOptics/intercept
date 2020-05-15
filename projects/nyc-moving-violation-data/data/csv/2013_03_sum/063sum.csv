@@ -1,0 +1,36 @@
+63rd Precinct,,
+Backing Unsafely,0,1
+Brake Lights (Defect.or  Improper),6,10
+"Bus Lane, Driving in",0,0
+Cell Phone,145,363
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Sign,111,378
+Equipment (Other),0,0
+Fail to Keep Right,0,0
+Fail to Signal,0,14
+Fail to Stop on Signal,6,39
+Following Too Closely,0,1
+Headlights (Defect. or Improper),11,29
+Improper Lights,0,0
+Improper Passing,0,5
+Improper Turn,1,10
+Improper/Missing Plates,0,0
+Not Giving R of W to Pedes.,1,9
+Not Giving R of W to Veh.,1,1
+One Way Street,0,0
+Pavement Markings,0,7
+Safety Belt,43,215
+"School Bus, Passing Stopped",0,0
+Speeding,8,13
+Spillback,0,0
+Tinted Windows,50,165
+Truck Routes,1,8
+U-Turn,0,1
+Uninspected,0,0
+Uninsured,22,45
+Unlicensed Operator,26,86
+Unregistered,2,7
+Unsafe Lane Change,0,4
+Other Movers,54,168
+TOTAL Movers,488,1579

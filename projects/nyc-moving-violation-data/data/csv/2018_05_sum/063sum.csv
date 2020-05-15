@@ -1,0 +1,47 @@
+63rd Precinct,,
+Backing Unsafely,0,1
+Bike Lane,0,0
+Bus Lane,14,16
+Cell Phone,92,495
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,127,717
+Driving Too Slow,0,0
+Equipment,8,91
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,42,214
+Failure to Signal,3,21
+Following Too Closely,0,0
+Improper Passing,4,11
+Improper Taxi Pickup,2,2
+Improper Turn,16,76
+Improper/Missing Plates,0,1
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,1
+Not Giving R of W to Veh.,0,5
+Obstructed Plate,4,25
+One Way Street,1,7
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,35,275
+School Bus,0,6
+Scooter In NYC,0,0
+Seat Belt,65,108
+Speeding,43,293
+Spillback,0,2
+TBTA Rule,0,0
+Tints,20,144
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,0,1
+Uninsured,6,41
+Unlicensed Operator,22,142
+Unregistered,6,28
+Unsafe Lane Change,1,8
+Other Movers,117,450
+TOTAL Movers,628,3181

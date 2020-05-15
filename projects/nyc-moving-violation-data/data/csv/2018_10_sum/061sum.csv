@@ -1,0 +1,47 @@
+61st Precinct,,
+Backing Unsafely,0,1
+Bike Lane,0,0
+Bus Lane,0,0
+Cell Phone,52,647
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,48,475
+Driving Too Slow,0,0
+Equipment,6,99
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,1,2
+Fail to yield Right of Way to Pedestrian,28,553
+Failure to Signal,6,39
+Following Too Closely,1,1
+Improper Passing,0,27
+Improper Taxi Pickup,0,0
+Improper Turn,4,52
+Improper/Missing Plates,0,12
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,3
+Not Giving R of W to Veh.,1,12
+Obstructed Plate,7,78
+One Way Street,3,25
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,1
+Red Light,23,219
+School Bus,1,20
+Scooter In NYC,0,0
+Seat Belt,71,816
+Speeding,40,579
+Spillback,0,1
+TBTA Rule,0,0
+Tints,9,212
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,0,8
+Uninsured,2,41
+Unlicensed Operator,15,187
+Unregistered,2,47
+Unsafe Lane Change,1,5
+Other Movers,67,779
+TOTAL Movers,388,4941

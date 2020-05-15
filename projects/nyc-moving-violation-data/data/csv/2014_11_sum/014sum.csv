@@ -1,0 +1,36 @@
+Midtown South Precinct,,
+Backing Unsafely,3,29
+Brake Lights (Defect.or Improper),8,324
+"Bus Lane, Driving in",1,9
+Cell Phone,255,3020
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,11
+Disobey Sign,310,3658
+Equipment (Other),0,12
+Fail to Keep Right,5,18
+Fail to Signal,84,504
+Fail to Stop on Signal,48,634
+Following Too Closely,1,2
+Headlights (Defect. or Improper),6,781
+Improper Lights,0,6
+Improper Passing,0,0
+Improper Turn,188,2765
+Improper/Missing Plates,0,3
+Not Giving R of W to Pedes.,155,1710
+Not Giving R of W to Veh.,1,10
+One Way Street,44,196
+Pavement Markings,2,155
+Safety Belt,118,2035
+"School Bus, Passing Stopped",0,3
+Speeding,90,170
+Spillback,100,1017
+Tinted Windows,77,416
+Truck Routes,28,279
+U-Turn,30,328
+Uninspected,1,17
+Uninsured,67,985
+Unlicensed Operator,36,509
+Unregistered,14,205
+Unsafe Lane Change,45,324
+Other Movers,111,1157
+TOTAL Movers,1828,21292

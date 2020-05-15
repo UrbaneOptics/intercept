@@ -1,0 +1,36 @@
+47th Precinct,,
+Backing Unsafely,1,1
+Brake Lights (Defect.or  Improper),27,55
+"Bus Lane, Driving in",0,0
+Cell Phone,38,66
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Sign,34,61
+Equipment (Other),0,0
+Fail to Keep Right,0,1
+Fail to Signal,0,0
+Fail to Stop on Signal,10,24
+Following Too Closely,0,2
+Headlights (Defect. or Improper),21,48
+Improper Lights,0,0
+Improper Passing,0,0
+Improper Turn,45,111
+Improper/Missing Plates,0,0
+Not Giving R of W to Pedes.,10,40
+Not Giving R of W to Veh.,3,4
+One Way Street,0,0
+Pavement Markings,10,15
+Safety Belt,93,186
+"School Bus, Passing Stopped",1,2
+Speeding,43,59
+Spillback,0,0
+Tinted Windows,36,145
+Truck Routes,0,0
+U-Turn,0,0
+Uninspected,11,47
+Uninsured,101,225
+Unlicensed Operator,38,95
+Unregistered,29,67
+Unsafe Lane Change,4,4
+Other Movers,14,31
+TOTAL Movers,569,1289

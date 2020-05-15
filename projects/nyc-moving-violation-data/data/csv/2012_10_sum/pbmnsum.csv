@@ -1,0 +1,36 @@
+Manhattan North,,
+Backing Unsafely,13,103
+Brake Lights (Defect.or  Improper),432,4768
+"Bus Lane, Driving in",7,38
+Cell Phone,1607,18032
+Commercial Veh on Pkwy,2,22
+Defective Brakes,13,137
+Disobey Sign,1012,11688
+Equipment (Other),139,870
+Fail to Keep Right,4,32
+Fail to Signal,119,1259
+Fail to Stop on Signal,359,3950
+Following Too Closely,2,44
+Headlights (Defect. or Improper),228,2795
+Improper Lights,0,32
+Improper Passing,10,186
+Improper Turn,439,5262
+Improper/Missing Plates,11,205
+Not Giving R of W to Pedes.,509,2436
+Not Giving R of W to Veh.,12,112
+One Way Street,121,947
+Pavement Markings,195,1665
+Safety Belt,949,11226
+"School Bus, Passing Stopped",17,539
+Speeding,113,1421
+Spillback,9,387
+Tinted Windows,313,3663
+Truck Routes,100,1295
+U-Turn,64,615
+Uninspected,32,407
+Uninsured,339,3478
+Unlicensed Operator,221,2757
+Unregistered,61,658
+Unsafe Lane Change,34,385
+Other Movers,341,2960
+TOTAL Movers,7827,84374

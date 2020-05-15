@@ -1,0 +1,36 @@
+45th Precinct,,
+Backing Unsafely,0,0
+Brake Lights (Defect.or Improper),12,48
+"Bus Lane, Driving in",0,0
+Cell Phone,34,117
+Commercial Veh on Pkwy,0,1
+Defective Brakes,0,0
+Disobey Steady Red Signal,11,62
+Disobey Traffic Control Device,58,277
+Equipment (Other),2,11
+Fail to Keep Right,0,0
+Fail to Signal,2,10
+Following Too Closely,0,3
+Headlights (Defect. or Improper),16,73
+Improper Lights,0,1
+Improper Passing,0,2
+Improper Turn,9,72
+Improper/Missing Plates,10,21
+Not Giving R of W to Pedes.,28,99
+Not Giving R of W to Veh.,0,2
+One Way Street,3,8
+Pavement Markings,2,7
+Safety Belt,26,77
+"School Bus, Passing Stopped",3,15
+Speeding,52,190
+Spillback,0,1
+Tinted Windows,64,337
+Truck Routes,1,2
+U-Turn,2,6
+Uninspected,4,22
+Uninsured,19,97
+Unlicensed Operator,19,98
+Unregistered,9,27
+Unsafe Lane Change,1,5
+Other Movers,14,74
+TOTAL Movers,401,1765

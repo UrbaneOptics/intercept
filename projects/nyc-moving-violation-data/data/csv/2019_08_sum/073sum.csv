@@ -1,0 +1,48 @@
+73rd Precinct,,
+Backing Unsafely,1,6
+Bike Lane,0,0
+Bus Lane,0,1
+Cell Phone,10,99
+Commercial Veh on Pkwy,5,41
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,185,2151
+Driving Too Slow,0,0
+Equipment,20,211
+Equipment (Other),0,1
+Excessive Noise,0,0
+Fail to Keep Right,0,1
+Fail to yield Right of Way to Pedestrian,37,282
+Failure to Signal,22,188
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,1
+Improper Passing,1,14
+Improper Taxi Pickup,0,0
+Improper Turn,57,663
+Improper/Missing Plates,1,8
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,2
+Not Giving R of W to Veh.,0,10
+Obstructed Plate,3,59
+One Way Street,2,16
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,113,967
+School Bus,0,3
+Scooter In NYC,0,0
+Seat Belt,22,162
+Speeding,46,264
+Spillback,1,13
+TBTA Rule,0,0
+Tints,38,244
+TLC (Other),0,0
+Truck Route,0,2
+Uninspected,1,24
+Uninsured,14,93
+Unlicensed Operator,58,552
+Unregistered,12,119
+Unsafe Lane Change,2,12
+Other Movers,62,515
+TOTAL Movers,713,6724

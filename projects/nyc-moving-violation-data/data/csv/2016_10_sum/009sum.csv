@@ -1,0 +1,37 @@
+9th Precinct,,
+Backing Unsafely,0,4
+Brake Lights (Defect.or Improper),1,132
+"Bus Lane, Driving in",1,8
+Cell Phone,100,588
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,118,965
+Disobey Traffic Control Device,125,1023
+Equipment (Other),2,38
+Fail to Keep Right,0,0
+Fail to Signal,39,137
+Following Too Closely,0,2
+Headlights (Defect. or Improper),2,77
+Improper Lights,0,0
+Improper Passing,0,6
+Improper Turn,160,1180
+Improper/Missing Plates,20,83
+Not Giving R of W to Pedes.,73,375
+Not Giving R of W to Veh.,3,8
+OBSTRUCTED PLATE,1,10
+One Way Street,0,10
+Pavement Markings,31,408
+Safety Belt,145,941
+"School Bus, Passing Stopped",0,5
+Speeding,15,44
+Spillback,4,7
+Tinted Windows,36,149
+Truck Routes,0,0
+U-Turn,7,21
+Uninspected,1,6
+Uninsured,15,165
+Unlicensed Operator,27,249
+Unregistered,7,64
+Unsafe Lane Change,17,209
+Other Movers,53,564
+TOTAL Movers,1003,7478

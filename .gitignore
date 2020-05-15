@@ -3,3 +3,5 @@
 projects/nypd-moving-violations/cmd/pkg/mod/**
 projects/nypd-moving-violations/cmd/pkg/mod/***
 projects/nypd-moving-violations/cmd/web/pkg/mod/cache/download/github.com/lib/pq/@v/v1.3.0.mod
+*.swp
+projects/nyc-moving-violation-data/commands.txt

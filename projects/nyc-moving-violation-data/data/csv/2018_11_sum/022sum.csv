@@ -1,0 +1,47 @@
+Central Park Precinct,,
+Backing Unsafely,0,0
+Bike Lane,0,1
+Bus Lane,47,100
+Cell Phone,1,47
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,21,173
+Driving Too Slow,0,0
+Equipment,8,199
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,18,188
+Failure to Signal,2,24
+Following Too Closely,0,0
+Improper Passing,0,1
+Improper Taxi Pickup,0,1
+Improper Turn,53,635
+Improper/Missing Plates,0,0
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,4
+Not Giving R of W to Veh.,1,6
+Obstructed Plate,2,13
+One Way Street,0,2
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,1
+Red Light,6,229
+School Bus,0,13
+Scooter In NYC,0,0
+Seat Belt,3,141
+Speeding,5,297
+Spillback,0,2
+TBTA Rule,0,0
+Tints,5,122
+TLC (Other),0,0
+Truck Route,0,1
+Uninspected,0,8
+Uninsured,2,49
+Unlicensed Operator,3,44
+Unregistered,0,14
+Unsafe Lane Change,0,1
+Other Movers,4,74
+TOTAL Movers,181,2390

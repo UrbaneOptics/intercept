@@ -1,0 +1,48 @@
+Housing Bureau,,
+Backing Unsafely,0,2
+Bike Lane,2,3
+Bus Lane,0,0
+Cell Phone,0,5
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,4,37
+Driving Too Slow,0,0
+Equipment,3,50
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,0,1
+Failure to Signal,1,33
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,0
+Improper Passing,0,0
+Improper Taxi Pickup,0,0
+Improper Turn,0,4
+Improper/Missing Plates,0,1
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,1,5
+Obstructed Plate,3,18
+One Way Street,0,2
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,1,1
+Red Light,0,28
+School Bus,0,3
+Scooter In NYC,0,0
+Seat Belt,0,5
+Speeding,0,3
+Spillback,0,1
+TBTA Rule,0,0
+Tints,1,21
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,1,5
+Uninsured,3,24
+Unlicensed Operator,1,55
+Unregistered,1,11
+Unsafe Lane Change,0,4
+Other Movers,0,11
+TOTAL Movers,22,333

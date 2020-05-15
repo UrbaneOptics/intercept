@@ -1,0 +1,36 @@
+Transportation Bureau,,
+Backing Unsafely,27,125
+Brake Lights (Defect.or Improper),28,170
+"Bus Lane, Driving in",208,728
+Cell Phone,720,2821
+Commercial Veh on Pkwy,104,409
+Defective Brakes,1,18
+Disobey Sign,6097,11907
+Equipment (Other),344,1761
+Fail to Keep Right,0,2
+Fail to Signal,279,1106
+Fail to Stop on Signal,450,1183
+Following Too Closely,73,256
+Headlights (Defect. or Improper),23,103
+Improper Lights,4,28
+Improper Passing,80,342
+Improper Turn,713,2330
+Improper/Missing Plates,26,65
+Not Giving R of W to Pedes.,197,892
+Not Giving R of W to Veh.,29,112
+One Way Street,44,61
+Pavement Markings,196,841
+Safety Belt,772,2124
+"School Bus, Passing Stopped",581,601
+Speeding,5511,22041
+Spillback,84,292
+Tinted Windows,1319,4836
+Truck Routes,6,23
+U-Turn,2,5
+Uninspected,84,391
+Uninsured,190,793
+Unlicensed Operator,441,1543
+Unregistered,114,407
+Unsafe Lane Change,66,295
+Other Movers,1584,5982
+TOTAL Movers,20397,64593

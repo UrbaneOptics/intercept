@@ -1,0 +1,36 @@
+Queens North,,
+Backing Unsafely,7,40
+Brake Lights (Defect.or  Improper),30,233
+"Bus Lane, Driving in",0,0
+Cell Phone,1484,10352
+Commercial Veh on Pkwy,0,3
+Defective Brakes,0,11
+Disobey Sign,1304,9597
+Equipment (Other),42,150
+Fail to Keep Right,3,10
+Fail to Signal,66,496
+Fail to Stop on Signal,414,2378
+Following Too Closely,2,21
+Headlights (Defect. or Improper),8,78
+Improper Lights,72,493
+Improper Passing,13,103
+Improper Turn,294,1405
+Improper/Missing Plates,36,132
+Not Giving R of W to Pedes.,167,1346
+Not Giving R of W to Veh.,15,97
+One Way Street,41,264
+Pavement Markings,103,946
+Safety Belt,1987,12503
+"School Bus, Passing Stopped",8,148
+Speeding,347,2961
+Spillback,11,53
+Tinted Windows,484,4385
+Truck Routes,202,912
+U-Turn,25,96
+Uninspected,75,429
+Uninsured,514,3686
+Unlicensed Operator,974,6017
+Unregistered,95,490
+Unsafe Lane Change,8,86
+Other Movers,663,3542
+TOTAL Movers,9494,63463

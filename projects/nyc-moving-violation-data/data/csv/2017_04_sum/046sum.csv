@@ -1,0 +1,38 @@
+46th Precinct,,
+Backing Unsafely,1,11
+Brake Lights (Defect.or Improper),10,99
+"Bus Lane, Driving in",1,4
+Cell Phone,70,250
+Commercial Veh on Pkwy,0,0
+Defective Brakes,1,4
+Disobey Steady Red Signal,89,357
+Disobey Traffic Control Device,255,1049
+Equipment (Other),2,4
+Fail to Keep Right,0,0
+Fail to Signal,10,56
+Following Too Closely,1,1
+Headlights (Defect. or Improper),15,94
+Improper Lights,2,3
+Improper Passing,1,1
+Improper Turn,145,516
+Improper/Missing Plates,7,23
+Lamps and Other Equipment on Bicycle,0,0
+Not Giving R of W to Pedes.,63,194
+Not Giving R of W to Veh.,3,8
+OBSTRUCTED PLATE,4,47
+One Way Street,3,3
+Pavement Markings,3,37
+Safety Belt,27,172
+"School Bus, Passing Stopped",7,10
+Speeding,117,458
+Spillback,0,0
+Tinted Windows,171,981
+Truck Routes,1,1
+U-Turn,5,25
+Uninspected,1,18
+Uninsured,61,288
+Unlicensed Operator,77,365
+Unregistered,14,98
+Unsafe Lane Change,2,11
+Other Movers,113,520
+TOTAL Movers,1282,5708

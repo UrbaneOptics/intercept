@@ -1,0 +1,36 @@
+Queens South,,
+Backing Unsafely,3,64
+Brake Lights (Defect.or Improper),73,1146
+"Bus Lane, Driving in",0,0
+Cell Phone,452,4713
+Commercial Veh on Pkwy,1,4
+Defective Brakes,0,5
+Disobey Steady Red Signal,328,2735
+Disobey Traffic Control Device,1275,11362
+Equipment (Other),16,130
+Fail to Keep Right,3,10
+Fail to Signal,107,817
+Following Too Closely,2,16
+Headlights (Defect. or Improper),47,708
+Improper Lights,26,207
+Improper Passing,36,228
+Improper Turn,738,6945
+Improper/Missing Plates,7,79
+Not Giving R of W to Pedes.,118,1750
+Not Giving R of W to Veh.,13,227
+One Way Street,7,105
+Pavement Markings,78,791
+Safety Belt,774,7548
+"School Bus, Passing Stopped",36,119
+Speeding,422,3277
+Spillback,5,67
+Tinted Windows,517,6265
+Truck Routes,53,408
+U-Turn,35,412
+Uninspected,26,262
+Uninsured,367,2924
+Unlicensed Operator,528,4832
+Unregistered,68,593
+Unsafe Lane Change,3,69
+Other Movers,388,4029
+TOTAL Movers,6552,62847

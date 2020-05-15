@@ -1,0 +1,37 @@
+Manhattan South,,
+Backing Unsafely,16,128
+Brake Lights (Defect.or Improper),82,1097
+"Bus Lane, Driving in",10,149
+Cell Phone,1039,9461
+Commercial Veh on Pkwy,1,2
+Defective Brakes,0,2
+Disobey Steady Red Signal,838,6839
+Disobey Traffic Control Device,2051,19013
+Equipment (Other),8,183
+Fail to Keep Right,3,22
+Fail to Signal,318,3395
+Following Too Closely,3,32
+Headlights (Defect. or Improper),80,1017
+Improper Lights,14,146
+Improper Passing,60,517
+Improper Turn,1872,15139
+Improper/Missing Plates,47,495
+Not Giving R of W to Pedes.,871,5639
+Not Giving R of W to Veh.,10,121
+OBSTRUCTED PLATE,23,84
+One Way Street,66,636
+Pavement Markings,104,1152
+Safety Belt,636,6183
+"School Bus, Passing Stopped",2,53
+Speeding,301,1393
+Spillback,184,1294
+Tinted Windows,261,2665
+Truck Routes,39,343
+U-Turn,75,722
+Uninspected,6,92
+Uninsured,122,1474
+Unlicensed Operator,289,2370
+Unregistered,68,671
+Unsafe Lane Change,189,1940
+Other Movers,532,5571
+TOTAL Movers,10220,90040

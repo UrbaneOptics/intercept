@@ -1,0 +1,48 @@
+90th Precinct,,
+Backing Unsafely,1,8
+Bike Lane,32,178
+Bus Lane,0,0
+Cell Phone,1,128
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,160,1445
+Driving Too Slow,0,0
+Equipment,39,317
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,1
+Fail to yield Right of Way to Pedestrian,46,546
+Failure to Signal,3,71
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,2
+Improper Passing,14,266
+Improper Taxi Pickup,0,0
+Improper Turn,6,333
+Improper/Missing Plates,0,6
+Lamps and Other Equipment on Bicycle,0,1
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,3,16
+Obstructed Plate,1,20
+One Way Street,27,304
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,1
+Red Light,64,782
+School Bus,1,7
+Scooter In NYC,0,0
+Seat Belt,46,522
+Speeding,55,362
+Spillback,1,4
+TBTA Rule,0,0
+Tints,45,702
+TLC (Other),0,0
+Truck Route,0,9
+Uninspected,0,6
+Uninsured,5,122
+Unlicensed Operator,19,313
+Unregistered,4,42
+Unsafe Lane Change,0,3
+Other Movers,86,1234
+TOTAL Movers,659,7751

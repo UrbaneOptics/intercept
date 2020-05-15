@@ -1,0 +1,36 @@
+112th Precinct,,
+Backing Unsafely,0,2
+Brake Lights (Defect.or Improper),1,1
+"Bus Lane, Driving in",7,52
+Cell Phone,30,170
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,87,248
+Disobey Traffic Control Device,240,989
+Equipment (Other),8,45
+Fail to Keep Right,1,1
+Fail to Signal,7,33
+Following Too Closely,0,1
+Headlights (Defect. or Improper),1,2
+Improper Lights,0,1
+Improper Passing,0,2
+Improper Turn,34,174
+Improper/Missing Plates,6,15
+Not Giving R of W to Pedes.,92,473
+Not Giving R of W to Veh.,1,4
+One Way Street,4,15
+Pavement Markings,0,1
+Safety Belt,40,253
+"School Bus, Passing Stopped",0,3
+Speeding,34,337
+Spillback,1,2
+Tinted Windows,64,266
+Truck Routes,0,1
+U-Turn,0,1
+Uninspected,3,11
+Uninsured,32,126
+Unlicensed Operator,39,184
+Unregistered,21,73
+Unsafe Lane Change,0,4
+Other Movers,33,175
+TOTAL Movers,786,3665

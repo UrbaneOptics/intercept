@@ -1,0 +1,36 @@
+20th Precinct,,
+Backing Unsafely,0,4
+Brake Lights (Defect.or Improper),11,96
+"Bus Lane, Driving in",0,0
+Cell Phone,271,1150
+Commercial Veh on Pkwy,0,1
+Defective Brakes,0,0
+Disobey Sign,205,831
+Equipment (Other),9,50
+Fail to Keep Right,0,1
+Fail to Signal,16,116
+Fail to Stop on Signal,77,304
+Following Too Closely,0,1
+Headlights (Defect. or Improper),6,77
+Improper Lights,0,0
+Improper Passing,0,0
+Improper Turn,67,286
+Improper/Missing Plates,1,5
+Not Giving R of W to Pedes.,28,104
+Not Giving R of W to Veh.,4,9
+One Way Street,15,82
+Pavement Markings,1,5
+Safety Belt,109,471
+"School Bus, Passing Stopped",6,40
+Speeding,21,46
+Spillback,0,0
+Tinted Windows,4,51
+Truck Routes,18,120
+U-Turn,6,23
+Uninspected,1,5
+Uninsured,27,112
+Unlicensed Operator,16,101
+Unregistered,4,23
+Unsafe Lane Change,5,26
+Other Movers,64,211
+TOTAL Movers,992,4351

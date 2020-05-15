@@ -1,0 +1,48 @@
+41st Precinct,,
+Backing Unsafely,1,1
+Bike Lane,0,1
+Bus Lane,10,27
+Cell Phone,27,55
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,210,501
+Driving Too Slow,0,0
+Equipment,23,47
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,60,236
+Failure to Signal,3,10
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,1
+Improper Passing,0,0
+Improper Taxi Pickup,0,0
+Improper Turn,104,290
+Improper/Missing Plates,0,0
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,0,3
+Obstructed Plate,3,7
+One Way Street,0,0
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,26,138
+School Bus,3,10
+Scooter In NYC,0,0
+Seat Belt,23,43
+Speeding,126,388
+Spillback,0,3
+TBTA Rule,0,0
+Tints,13,24
+TLC (Other),0,0
+Truck Route,3,5
+Uninspected,0,1
+Uninsured,6,14
+Unlicensed Operator,27,81
+Unregistered,9,13
+Unsafe Lane Change,3,5
+Other Movers,32,123
+TOTAL Movers,712,2027

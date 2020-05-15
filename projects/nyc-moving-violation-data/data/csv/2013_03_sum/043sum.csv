@@ -1,0 +1,36 @@
+43rd Precinct,,
+Backing Unsafely,2,10
+Brake Lights (Defect.or  Improper),46,101
+"Bus Lane, Driving in",0,0
+Cell Phone,54,111
+Commercial Veh on Pkwy,3,6
+Defective Brakes,5,6
+Disobey Sign,84,210
+Equipment (Other),5,6
+Fail to Keep Right,0,0
+Fail to Signal,43,109
+Fail to Stop on Signal,45,105
+Following Too Closely,1,2
+Headlights (Defect. or Improper),46,140
+Improper Lights,0,2
+Improper Passing,0,0
+Improper Turn,81,205
+Improper/Missing Plates,1,1
+Not Giving R of W to Pedes.,1,9
+Not Giving R of W to Veh.,0,1
+One Way Street,2,2
+Pavement Markings,24,130
+Safety Belt,97,246
+"School Bus, Passing Stopped",1,1
+Speeding,35,37
+Spillback,0,0
+Tinted Windows,156,317
+Truck Routes,1,2
+U-Turn,15,88
+Uninspected,2,4
+Uninsured,29,75
+Unlicensed Operator,60,149
+Unregistered,7,29
+Unsafe Lane Change,5,15
+Other Movers,50,112
+TOTAL Movers,901,2231

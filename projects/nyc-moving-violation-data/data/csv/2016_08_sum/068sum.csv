@@ -1,0 +1,37 @@
+68th Precinct,,
+Backing Unsafely,2,4
+Brake Lights (Defect.or Improper),0,4
+"Bus Lane, Driving in",0,0
+Cell Phone,47,250
+Commercial Veh on Pkwy,2,85
+Defective Brakes,0,1
+Disobey Steady Red Signal,67,487
+Disobey Traffic Control Device,83,742
+Equipment (Other),0,2
+Fail to Keep Right,0,1
+Fail to Signal,21,119
+Following Too Closely,0,2
+Headlights (Defect. or Improper),0,1
+Improper Lights,0,2
+Improper Passing,3,33
+Improper Turn,58,502
+Improper/Missing Plates,3,17
+Not Giving R of W to Pedes.,62,434
+Not Giving R of W to Veh.,2,22
+OBSTRUCTED PLATE,1,7
+One Way Street,0,3
+Pavement Markings,0,17
+Safety Belt,101,519
+"School Bus, Passing Stopped",0,23
+Speeding,122,418
+Spillback,3,24
+Tinted Windows,108,726
+Truck Routes,5,108
+U-Turn,4,17
+Uninspected,1,5
+Uninsured,8,180
+Unlicensed Operator,38,306
+Unregistered,5,43
+Unsafe Lane Change,0,9
+Other Movers,73,388
+TOTAL Movers,819,5501

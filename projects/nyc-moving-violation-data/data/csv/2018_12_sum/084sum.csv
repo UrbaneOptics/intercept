@@ -1,0 +1,47 @@
+84th Precinct,,
+Backing Unsafely,0,8
+Bike Lane,0,2
+Bus Lane,5,30
+Cell Phone,19,255
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,162,2420
+Driving Too Slow,0,0
+Equipment,23,627
+Equipment (Other),0,1
+Excessive Noise,0,0
+Fail to Keep Right,1,4
+Fail to yield Right of Way to Pedestrian,17,497
+Failure to Signal,8,189
+Following Too Closely,0,2
+Improper Passing,0,52
+Improper Taxi Pickup,0,3
+Improper Turn,30,474
+Improper/Missing Plates,0,7
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),1,51
+Not Giving R of W to Veh.,2,11
+Obstructed Plate,2,29
+One Way Street,0,33
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,2
+Red Light,106,1420
+School Bus,0,5
+Scooter In NYC,0,0
+Seat Belt,11,458
+Speeding,25,535
+Spillback,0,2
+TBTA Rule,1,1
+Tints,31,353
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,0,11
+Uninsured,11,106
+Unlicensed Operator,27,398
+Unregistered,3,53
+Unsafe Lane Change,0,17
+Other Movers,33,761
+TOTAL Movers,518,8817

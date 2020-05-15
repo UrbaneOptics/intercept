@@ -1,0 +1,36 @@
+32nd Precinct,,
+Backing Unsafely,0,0
+Brake Lights (Defect.or Improper),14,35
+"Bus Lane, Driving in",0,0
+Cell Phone,37,62
+Commercial Veh on Pkwy,0,0
+Defective Brakes,1,1
+Disobey Steady Red Signal,48,98
+Disobey Traffic Control Device,105,240
+Equipment (Other),7,11
+Fail to Keep Right,0,0
+Fail to Signal,50,72
+Following Too Closely,0,0
+Headlights (Defect. or Improper),51,103
+Improper Lights,0,0
+Improper Passing,0,0
+Improper Turn,40,89
+Improper/Missing Plates,0,1
+Not Giving R of W to Pedes.,34,62
+Not Giving R of W to Veh.,0,1
+One Way Street,1,1
+Pavement Markings,63,87
+Safety Belt,7,12
+"School Bus, Passing Stopped",1,2
+Speeding,36,105
+Spillback,1,1
+Tinted Windows,7,29
+Truck Routes,1,2
+U-Turn,10,13
+Uninspected,4,8
+Uninsured,11,27
+Unlicensed Operator,38,71
+Unregistered,11,19
+Unsafe Lane Change,2,6
+Other Movers,24,42
+TOTAL Movers,604,1200

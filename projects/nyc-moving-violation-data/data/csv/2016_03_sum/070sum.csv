@@ -1,0 +1,36 @@
+70th Precinct,,
+Backing Unsafely,5,11
+Brake Lights (Defect.or Improper),0,0
+"Bus Lane, Driving in",0,0
+Cell Phone,120,255
+Commercial Veh on Pkwy,0,1
+Defective Brakes,0,0
+Disobey Steady Red Signal,56,233
+Disobey Traffic Control Device,154,456
+Equipment (Other),3,20
+Fail to Keep Right,0,0
+Fail to Signal,0,0
+Following Too Closely,1,4
+Headlights (Defect. or Improper),0,0
+Improper Lights,0,2
+Improper Passing,9,31
+Improper Turn,175,466
+Improper/Missing Plates,3,4
+Not Giving R of W to Pedes.,200,465
+Not Giving R of W to Veh.,11,29
+One Way Street,1,1
+Pavement Markings,0,0
+Safety Belt,166,387
+"School Bus, Passing Stopped",3,11
+Speeding,81,210
+Spillback,3,5
+Tinted Windows,204,386
+Truck Routes,0,0
+U-Turn,0,0
+Uninspected,0,0
+Uninsured,71,210
+Unlicensed Operator,82,234
+Unregistered,12,35
+Unsafe Lane Change,27,91
+Other Movers,84,215
+TOTAL Movers,1471,3762

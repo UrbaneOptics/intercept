@@ -1,0 +1,36 @@
+77th Precinct,,
+Backing Unsafely,4,8
+Brake Lights (Defect.or Improper),96,160
+"Bus Lane, Driving in",41,69
+Cell Phone,97,128
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,110,153
+Disobey Traffic Control Device,228,483
+Equipment (Other),0,0
+Fail to Keep Right,1,1
+Fail to Signal,67,121
+Following Too Closely,3,3
+Headlights (Defect. or Improper),119,219
+Improper Lights,0,0
+Improper Passing,2,6
+Improper Turn,110,136
+Improper/Missing Plates,0,3
+Not Giving R of W to Pedes.,20,39
+Not Giving R of W to Veh.,8,15
+One Way Street,7,10
+Pavement Markings,14,31
+Safety Belt,74,103
+"School Bus, Passing Stopped",0,0
+Speeding,62,167
+Spillback,7,12
+Tinted Windows,121,160
+Truck Routes,0,0
+U-Turn,9,13
+Uninspected,3,10
+Uninsured,57,141
+Unlicensed Operator,54,116
+Unregistered,26,42
+Unsafe Lane Change,2,4
+Other Movers,122,207
+TOTAL Movers,1464,2560

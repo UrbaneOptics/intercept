@@ -1,0 +1,36 @@
+102nd Precinct,,
+Backing Unsafely,0,1
+Brake Lights (Defect.or  Improper),13,50
+"Bus Lane, Driving in",0,0
+Cell Phone,97,416
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,1
+Disobey Sign,198,535
+Equipment (Other),0,0
+Fail to Keep Right,0,0
+Fail to Signal,4,15
+Fail to Stop on Signal,19,75
+Following Too Closely,0,0
+Headlights (Defect. or Improper),11,37
+Improper Lights,2,3
+Improper Passing,0,6
+Improper Turn,20,78
+Improper/Missing Plates,1,5
+Not Giving R of W to Pedes.,20,29
+Not Giving R of W to Veh.,0,2
+One Way Street,0,4
+Pavement Markings,1,5
+Safety Belt,154,482
+"School Bus, Passing Stopped",0,9
+Speeding,5,25
+Spillback,0,0
+Tinted Windows,78,231
+Truck Routes,1,7
+U-Turn,0,1
+Uninspected,1,6
+Uninsured,68,182
+Unlicensed Operator,46,131
+Unregistered,9,24
+Unsafe Lane Change,0,0
+Other Movers,16,71
+TOTAL Movers,764,2431

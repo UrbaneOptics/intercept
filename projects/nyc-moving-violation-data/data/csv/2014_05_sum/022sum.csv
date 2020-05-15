@@ -1,0 +1,36 @@
+Central Park Precinct,,
+Backing Unsafely,1,1
+Brake Lights (Defect.or Improper),14,69
+"Bus Lane, Driving in",0,0
+Cell Phone,62,262
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Sign,14,158
+Equipment (Other),4,28
+Fail to Keep Right,0,0
+Fail to Signal,1,33
+Fail to Stop on Signal,10,79
+Following Too Closely,0,1
+Headlights (Defect. or Improper),7,78
+Improper Lights,0,0
+Improper Passing,0,20
+Improper Turn,110,371
+Improper/Missing Plates,0,0
+Not Giving R of W to Pedes.,34,88
+Not Giving R of W to Veh.,0,1
+One Way Street,0,6
+Pavement Markings,19,128
+Safety Belt,9,40
+"School Bus, Passing Stopped",1,6
+Speeding,34,66
+Spillback,0,0
+Tinted Windows,10,82
+Truck Routes,0,1
+U-Turn,0,2
+Uninspected,5,38
+Uninsured,10,73
+Unlicensed Operator,11,51
+Unregistered,3,18
+Unsafe Lane Change,3,16
+Other Movers,5,36
+TOTAL Movers,367,1752

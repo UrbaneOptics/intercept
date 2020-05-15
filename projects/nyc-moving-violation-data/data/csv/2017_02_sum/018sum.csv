@@ -1,0 +1,37 @@
+Backing Unsafely,2,4
+Brake Lights (Defect.or Improper),32,64
+"Bus Lane, Driving in",3,9
+Cell Phone,102,200
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,93,199
+Disobey Traffic Control Device,382,779
+Equipment (Other),7,17
+Fail to Keep Right,0,1
+Fail to Signal,22,46
+Following Too Closely,0,0
+Headlights (Defect. or Improper),29,58
+Improper Lights,0,0
+Improper Passing,0,1
+Improper Turn,170,380
+Improper/Missing Plates,14,34
+Not Giving R of W to Pedes.,106,138
+Not Giving R of W to Veh.,0,1
+OBSTRUCTED PLATE,2,2
+One Way Street,2,16
+Pavement Markings,8,20
+Safety Belt,50,83
+"School Bus, Passing Stopped",0,0
+Speeding,37,73
+Spillback,3,10
+Tinted Windows,61,145
+Truck Routes,0,0
+U-Turn,0,0
+Uninspected,2,2
+Uninsured,9,24
+Unlicensed Operator,27,57
+Unregistered,12,22
+Unsafe Lane Change,1,6
+Other Movers,17,62
+TOTAL Movers,1193,2453
+Midtown North Precinct,,

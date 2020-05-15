@@ -1,0 +1,37 @@
+50th Precinct,,
+Backing Unsafely,1,1
+Brake Lights (Defect.or Improper),13,39
+"Bus Lane, Driving in",0,0
+Cell Phone,40,168
+Commercial Veh on Pkwy,5,7
+Defective Brakes,0,0
+Disobey Steady Red Signal,18,88
+Disobey Traffic Control Device,151,705
+Equipment (Other),1,6
+Fail to Keep Right,0,2
+Fail to Signal,27,89
+Following Too Closely,1,4
+Headlights (Defect. or Improper),10,59
+Improper Lights,0,0
+Improper Passing,4,4
+Improper Turn,46,217
+Improper/Missing Plates,11,34
+Not Giving R of W to Pedes.,55,242
+Not Giving R of W to Veh.,0,3
+OBSTRUCTED PLATE,0,0
+One Way Street,3,8
+Pavement Markings,0,10
+Safety Belt,115,356
+"School Bus, Passing Stopped",1,23
+Speeding,112,356
+Spillback,0,0
+Tinted Windows,82,464
+Truck Routes,0,6
+U-Turn,1,9
+Uninspected,8,28
+Uninsured,23,98
+Unlicensed Operator,45,170
+Unregistered,7,25
+Unsafe Lane Change,4,22
+Other Movers,40,116
+TOTAL Movers,824,3359

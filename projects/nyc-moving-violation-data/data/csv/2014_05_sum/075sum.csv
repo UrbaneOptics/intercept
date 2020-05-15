@@ -1,0 +1,36 @@
+75th Precinct,,
+Backing Unsafely,8,25
+Brake Lights (Defect.or Improper),6,150
+"Bus Lane, Driving in",0,0
+Cell Phone,178,744
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Sign,103,454
+Equipment (Other),0,20
+Fail to Keep Right,0,2
+Fail to Signal,59,236
+Fail to Stop on Signal,76,369
+Following Too Closely,2,9
+Headlights (Defect. or Improper),13,156
+Improper Lights,1,1
+Improper Passing,6,36
+Improper Turn,66,296
+Improper/Missing Plates,7,23
+Not Giving R of W to Pedes.,27,119
+Not Giving R of W to Veh.,2,32
+One Way Street,0,4
+Pavement Markings,74,337
+Safety Belt,313,1333
+"School Bus, Passing Stopped",0,21
+Speeding,52,183
+Spillback,2,20
+Tinted Windows,229,1576
+Truck Routes,4,7
+U-Turn,0,9
+Uninspected,27,136
+Uninsured,93,484
+Unlicensed Operator,130,665
+Unregistered,41,221
+Unsafe Lane Change,2,14
+Other Movers,320,1994
+TOTAL Movers,1841,9676

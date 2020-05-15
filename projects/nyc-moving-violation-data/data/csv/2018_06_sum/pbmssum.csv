@@ -1,0 +1,47 @@
+Manhattan South,,
+Backing Unsafely,9,58
+Bike Lane,19,92
+Bus Lane,59,241
+Cell Phone,444,2512
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,4
+Disobey Traffic Control Device,1481,9923
+Driving Too Slow,0,1
+Equipment,185,1024
+Equipment (Other),1,2
+Excessive Noise,0,0
+Fail to Keep Right,2,8
+Fail to yield Right of Way to Pedestrian,651,4140
+Failure to Signal,151,1269
+Following Too Closely,2,27
+Improper Passing,18,112
+Improper Taxi Pickup,20,155
+Improper Turn,1532,9684
+Improper/Missing Plates,19,86
+Lamps and Other Equipment on Bicycle,0,4
+Motorcycle (Other),50,141
+Not Giving R of W to Veh.,13,90
+Obstructed Plate,109,513
+One Way Street,111,646
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,7,26
+Red Light,1040,5128
+School Bus,5,56
+Scooter In NYC,0,1
+Seat Belt,648,3898
+Speeding,199,1418
+Spillback,17,138
+TBTA Rule,0,0
+Tints,227,1541
+TLC (Other),0,1
+Truck Route,4,55
+Uninspected,17,189
+Uninsured,94,566
+Unlicensed Operator,213,1322
+Unregistered,39,299
+Unsafe Lane Change,87,493
+Other Movers,1033,6063
+TOTAL Movers,8506,51926

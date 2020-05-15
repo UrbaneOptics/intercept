@@ -1,0 +1,48 @@
+Queens South,,
+Backing Unsafely,3,47
+Bike Lane,18,89
+Bus Lane,36,288
+Cell Phone,270,3078
+Commercial Veh on Pkwy,1,29
+Cruising For Passengers,1,8
+Disobey Traffic Control Device,1109,13858
+Driving Too Slow,0,3
+Equipment,183,2256
+Equipment (Other),3,7
+Excessive Noise,0,0
+Fail to Keep Right,1,8
+Fail to yield Right of Way to Pedestrian,687,4714
+Failure to Signal,208,1768
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,1,16
+Improper Passing,29,260
+Improper Taxi Pickup,2,10
+Improper Turn,549,5613
+Improper/Missing Plates,5,101
+Lamps and Other Equipment on Bicycle,0,3
+Motorcycle (Other),2,76
+Not Giving R of W to Veh.,16,113
+Obstructed Plate,47,445
+One Way Street,7,142
+Overheight,0,1
+Overlength,0,1
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,7,40
+Red Light,493,4472
+School Bus,5,114
+Scooter In NYC,0,0
+Seat Belt,352,4146
+Speeding,433,6816
+Spillback,2,44
+TBTA Rule,0,1
+Tints,114,1291
+TLC (Other),0,0
+Truck Route,9,66
+Uninspected,25,286
+Uninsured,90,1218
+Unlicensed Operator,398,4426
+Unregistered,107,1004
+Unsafe Lane Change,9,90
+Other Movers,804,7510
+TOTAL Movers,6026,64458

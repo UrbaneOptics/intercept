@@ -1,0 +1,48 @@
+123rd Precinct,,
+Backing Unsafely,1,5
+Bike Lane,0,1
+Bus Lane,0,28
+Cell Phone,24,427
+Commercial Veh on Pkwy,0,2
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,106,1466
+Driving Too Slow,0,1
+Equipment,13,132
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,2
+Fail to yield Right of Way to Pedestrian,8,129
+Failure to Signal,8,246
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,20
+Improper Passing,3,20
+Improper Taxi Pickup,0,1
+Improper Turn,3,68
+Improper/Missing Plates,1,9
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),1,2
+Not Giving R of W to Veh.,2,32
+Obstructed Plate,5,104
+One Way Street,2,10
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,1
+Red Light,50,577
+School Bus,6,36
+Scooter In NYC,0,0
+Seat Belt,42,903
+Speeding,255,2676
+Spillback,0,1
+TBTA Rule,0,0
+Tints,27,438
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,2,81
+Uninsured,29,274
+Unlicensed Operator,45,613
+Unregistered,18,174
+Unsafe Lane Change,3,30
+Other Movers,80,1459
+TOTAL Movers,734,9968

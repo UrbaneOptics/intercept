@@ -1,0 +1,36 @@
+52nd Precinct,,
+Backing Unsafely,0,1
+Brake Lights (Defect.or  Improper),24,116
+"Bus Lane, Driving in",0,1
+Cell Phone,232,616
+Commercial Veh on Pkwy,0,1
+Defective Brakes,0,0
+Disobey Sign,20,79
+Equipment (Other),4,10
+Fail to Keep Right,1,2
+Fail to Signal,2,28
+Fail to Stop on Signal,9,73
+Following Too Closely,0,1
+Headlights (Defect. or Improper),48,246
+Improper Lights,0,8
+Improper Passing,0,3
+Improper Turn,105,612
+Improper/Missing Plates,0,20
+Not Giving R of W to Pedes.,0,9
+Not Giving R of W to Veh.,0,3
+One Way Street,2,5
+Pavement Markings,16,132
+Safety Belt,51,259
+"School Bus, Passing Stopped",0,8
+Speeding,0,3
+Spillback,2,6
+Tinted Windows,188,729
+Truck Routes,0,3
+U-Turn,5,24
+Uninspected,5,65
+Uninsured,55,220
+Unlicensed Operator,88,346
+Unregistered,25,107
+Unsafe Lane Change,3,7
+Other Movers,19,72
+TOTAL Movers,904,3815

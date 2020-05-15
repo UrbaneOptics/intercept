@@ -1,0 +1,47 @@
+23rd Precinct,,
+Backing Unsafely,0,5
+Bike Lane,0,0
+Bus Lane,30,31
+Cell Phone,31,323
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,132,707
+Driving Too Slow,0,0
+Equipment,31,184
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,92,421
+Failure to Signal,1,7
+Following Too Closely,0,0
+Improper Passing,4,13
+Improper Taxi Pickup,0,1
+Improper Turn,130,550
+Improper/Missing Plates,1,8
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,0,4
+Obstructed Plate,4,27
+One Way Street,2,20
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,123,500
+School Bus,1,16
+Scooter In NYC,0,0
+Seat Belt,78,218
+Speeding,31,251
+Spillback,0,0
+TBTA Rule,0,0
+Tints,14,124
+TLC (Other),0,0
+Truck Route,10,38
+Uninspected,0,2
+Uninsured,2,8
+Unlicensed Operator,9,53
+Unregistered,0,10
+Unsafe Lane Change,2,10
+Other Movers,33,207
+TOTAL Movers,761,3738

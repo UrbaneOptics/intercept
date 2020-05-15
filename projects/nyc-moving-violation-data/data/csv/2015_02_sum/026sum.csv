@@ -1,0 +1,36 @@
+26th Precinct,,
+Backing Unsafely,0,0
+Brake Lights (Defect.or Improper),4,13
+"Bus Lane, Driving in",0,0
+Cell Phone,29,59
+Commercial Veh on Pkwy,0,0
+Defective Brakes,2,2
+Disobey Steady Red Signal,8,24
+Disobey Traffic Control Device,69,100
+Equipment (Other),0,1
+Fail to Keep Right,2,4
+Fail to Signal,2,4
+Following Too Closely,0,0
+Headlights (Defect. or Improper),8,32
+Improper Lights,0,0
+Improper Passing,0,0
+Improper Turn,39,109
+Improper/Missing Plates,1,1
+Not Giving R of W to Pedes.,41,75
+Not Giving R of W to Veh.,3,3
+One Way Street,1,3
+Pavement Markings,36,95
+Safety Belt,2,8
+"School Bus, Passing Stopped",0,0
+Speeding,128,246
+Spillback,0,0
+Tinted Windows,4,15
+Truck Routes,0,0
+U-Turn,3,8
+Uninspected,1,2
+Uninsured,11,23
+Unlicensed Operator,12,29
+Unregistered,5,8
+Unsafe Lane Change,1,2
+Other Movers,14,35
+TOTAL Movers,426,901

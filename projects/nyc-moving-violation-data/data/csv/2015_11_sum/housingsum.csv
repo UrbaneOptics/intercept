@@ -1,0 +1,36 @@
+Housing Bureau,,
+Backing Unsafely,0,2
+Brake Lights (Defect.or Improper),0,12
+"Bus Lane, Driving in",0,0
+Cell Phone,0,1
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,4
+Disobey Steady Red Signal,3,23
+Disobey Traffic Control Device,6,20
+Equipment (Other),2,7
+Fail to Keep Right,0,1
+Fail to Signal,3,11
+Following Too Closely,0,1
+Headlights (Defect. or Improper),2,42
+Improper Lights,1,4
+Improper Passing,0,2
+Improper Turn,0,5
+Improper/Missing Plates,0,4
+Not Giving R of W to Pedes.,1,1
+Not Giving R of W to Veh.,0,0
+One Way Street,0,2
+Pavement Markings,0,3
+Safety Belt,0,5
+"School Bus, Passing Stopped",0,0
+Speeding,0,0
+Spillback,0,0
+Tinted Windows,0,16
+Truck Routes,0,0
+U-Turn,0,0
+Uninspected,0,0
+Uninsured,1,13
+Unlicensed Operator,2,24
+Unregistered,1,9
+Unsafe Lane Change,0,1
+Other Movers,2,19
+TOTAL Movers,24,232

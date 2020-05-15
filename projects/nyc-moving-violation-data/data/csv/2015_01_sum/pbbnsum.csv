@@ -1,0 +1,36 @@
+Brooklyn North,,
+Backing Unsafely,24,24
+Brake Lights (Defect.or Improper),255,255
+"Bus Lane, Driving in",28,28
+Cell Phone,690,690
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,546,546
+Disobey Traffic Control Device,1293,1293
+Equipment (Other),40,40
+Fail to Keep Right,1,1
+Fail to Signal,240,240
+Following Too Closely,3,3
+Headlights (Defect. or Improper),421,421
+Improper Lights,0,0
+Improper Passing,24,24
+Improper Turn,348,348
+Improper/Missing Plates,14,14
+Not Giving R of W to Pedes.,109,109
+Not Giving R of W to Veh.,50,50
+One Way Street,69,69
+Pavement Markings,71,71
+Safety Belt,752,752
+"School Bus, Passing Stopped",6,6
+Speeding,315,315
+Spillback,11,11
+Tinted Windows,777,777
+Truck Routes,26,26
+U-Turn,13,13
+Uninspected,47,47
+Uninsured,383,383
+Unlicensed Operator,499,499
+Unregistered,116,116
+Unsafe Lane Change,10,10
+Other Movers,573,573
+TOTAL Movers,7754,7754

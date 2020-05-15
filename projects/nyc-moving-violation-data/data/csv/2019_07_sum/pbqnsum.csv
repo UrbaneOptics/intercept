@@ -1,0 +1,48 @@
+Queens North,,
+Backing Unsafely,1,30
+Bike Lane,81,110
+Bus Lane,49,310
+Cell Phone,530,3850
+Commercial Veh on Pkwy,0,2
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,1432,11644
+Driving Too Slow,1,2
+Equipment,386,1745
+Equipment (Other),2,14
+Excessive Noise,0,0
+Fail to Keep Right,1,6
+Fail to yield Right of Way to Pedestrian,857,5619
+Failure to Signal,55,466
+Failure to yield Right of Way to Vehicle,1,11
+Following Too Closely,1,12
+Improper Passing,28,166
+Improper Taxi Pickup,0,2
+Improper Turn,280,2150
+Improper/Missing Plates,7,59
+Lamps and Other Equipment on Bicycle,4,9
+Motorcycle (Other),13,113
+Not Giving R of W to Veh.,11,65
+Obstructed Plate,61,403
+One Way Street,22,167
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,2
+Red Light,604,4208
+School Bus,7,124
+Scooter In NYC,0,0
+Seat Belt,1009,6924
+Speeding,902,6666
+Spillback,5,27
+TBTA Rule,0,0
+Tints,255,2688
+TLC (Other),0,0
+Truck Route,11,133
+Uninspected,29,152
+Uninsured,86,466
+Unlicensed Operator,566,3885
+Unregistered,88,471
+Unsafe Lane Change,21,68
+Other Movers,989,6705
+TOTAL Movers,8395,59474

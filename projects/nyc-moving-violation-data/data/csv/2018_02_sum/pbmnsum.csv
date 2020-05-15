@@ -1,0 +1,47 @@
+Manhattan North,,
+Backing Unsafely,14,31
+Bike Lane,0,0
+Bus Lane,4,5
+Cell Phone,454,918
+Commercial Veh on Pkwy,0,1
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,2076,4578
+Driving Too Slow,0,0
+Equipment,301,582
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,1
+Fail to yield Right of Way to Pedestrian,556,1668
+Failure to Signal,94,206
+Following Too Closely,2,2
+Improper Passing,7,16
+Improper Taxi Pickup,14,28
+Improper Turn,1366,3229
+Improper/Missing Plates,18,25
+Lamps and Other Equipment on Bicycle,11,15
+Motorcycle (Other),1,2
+Not Giving R of W to Veh.,13,26
+Obstructed Plate,57,144
+One Way Street,45,72
+Overheight,0,1
+Overlength,3,3
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,1,1
+Red Light,892,1714
+School Bus,10,27
+Scooter In NYC,0,0
+Seat Belt,644,1140
+Speeding,659,1371
+Spillback,5,8
+TBTA Rule,0,0
+Tints,300,754
+TLC (Other),0,0
+Truck Route,16,34
+Uninspected,25,57
+Uninsured,65,152
+Unlicensed Operator,259,537
+Unregistered,46,104
+Unsafe Lane Change,15,34
+Other Movers,662,1220
+TOTAL Movers,8635,18706

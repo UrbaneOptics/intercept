@@ -1,0 +1,47 @@
+Midtown South Precinct,,
+Backing Unsafely,1,10
+Bike Lane,1,10
+Bus Lane,12,59
+Cell Phone,22,535
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,58,1238
+Driving Too Slow,0,0
+Equipment,3,131
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,1
+Fail to yield Right of Way to Pedestrian,132,2743
+Failure to Signal,15,243
+Following Too Closely,0,3
+Improper Passing,2,15
+Improper Taxi Pickup,0,12
+Improper Turn,53,2423
+Improper/Missing Plates,0,4
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),2,34
+Not Giving R of W to Veh.,0,12
+Obstructed Plate,21,282
+One Way Street,8,191
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,1
+Red Light,70,854
+School Bus,0,11
+Scooter In NYC,0,0
+Seat Belt,73,958
+Speeding,5,272
+Spillback,0,10
+TBTA Rule,0,0
+Tints,45,692
+TLC (Other),0,1
+Truck Route,0,0
+Uninspected,0,5
+Uninsured,0,21
+Unlicensed Operator,6,93
+Unregistered,0,17
+Unsafe Lane Change,10,131
+Other Movers,178,3249
+TOTAL Movers,717,14261

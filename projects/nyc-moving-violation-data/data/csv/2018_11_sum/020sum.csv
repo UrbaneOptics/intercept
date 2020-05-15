@@ -1,0 +1,47 @@
+20th Precinct,,
+Backing Unsafely,0,3
+Bike Lane,0,10
+Bus Lane,1,5
+Cell Phone,40,747
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,237,2525
+Driving Too Slow,0,0
+Equipment,5,193
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,31,325
+Failure to Signal,3,32
+Following Too Closely,0,0
+Improper Passing,1,7
+Improper Taxi Pickup,1,25
+Improper Turn,163,1845
+Improper/Missing Plates,0,17
+Lamps and Other Equipment on Bicycle,0,3
+Motorcycle (Other),0,5
+Not Giving R of W to Veh.,1,9
+Obstructed Plate,2,60
+One Way Street,3,114
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,70,1037
+School Bus,2,23
+Scooter In NYC,0,1
+Seat Belt,48,894
+Speeding,64,1019
+Spillback,0,2
+TBTA Rule,0,0
+Tints,0,3
+TLC (Other),0,0
+Truck Route,3,91
+Uninspected,0,9
+Uninsured,3,34
+Unlicensed Operator,19,256
+Unregistered,0,12
+Unsafe Lane Change,3,21
+Other Movers,25,577
+TOTAL Movers,725,9904

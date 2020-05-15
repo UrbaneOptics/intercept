@@ -1,0 +1,36 @@
+48th Precinct,,
+Backing Unsafely,4,7
+Brake Lights (Defect.or Improper),7,58
+"Bus Lane, Driving in",3,4
+Cell Phone,64,235
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Sign,40,225
+Equipment (Other),4,8
+Fail to Keep Right,0,1
+Fail to Signal,20,194
+Fail to Stop on Signal,41,120
+Following Too Closely,1,2
+Headlights (Defect. or Improper),7,55
+Improper Lights,0,1
+Improper Passing,4,8
+Improper Turn,90,292
+Improper/Missing Plates,0,0
+Not Giving R of W to Pedes.,22,40
+Not Giving R of W to Veh.,3,7
+One Way Street,0,2
+Pavement Markings,28,94
+Safety Belt,38,151
+"School Bus, Passing Stopped",10,13
+Speeding,175,677
+Spillback,1,19
+Tinted Windows,89,537
+Truck Routes,0,14
+U-Turn,6,30
+Uninspected,2,6
+Uninsured,15,97
+Unlicensed Operator,45,204
+Unregistered,7,36
+Unsafe Lane Change,0,0
+Other Movers,23,75
+TOTAL Movers,749,3212

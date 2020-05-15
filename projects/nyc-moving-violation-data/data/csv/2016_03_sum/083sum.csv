@@ -1,0 +1,36 @@
+83rd Precinct,,
+Backing Unsafely,3,5
+Brake Lights (Defect.or Improper),11,64
+"Bus Lane, Driving in",0,0
+Cell Phone,100,269
+Commercial Veh on Pkwy,0,0
+Defective Brakes,0,0
+Disobey Steady Red Signal,66,191
+Disobey Traffic Control Device,368,1080
+Equipment (Other),13,14
+Fail to Keep Right,0,0
+Fail to Signal,48,153
+Following Too Closely,0,0
+Headlights (Defect. or Improper),6,32
+Improper Lights,0,0
+Improper Passing,2,8
+Improper Turn,38,71
+Improper/Missing Plates,4,6
+Not Giving R of W to Pedes.,16,43
+Not Giving R of W to Veh.,4,11
+One Way Street,2,6
+Pavement Markings,8,19
+Safety Belt,163,329
+"School Bus, Passing Stopped",0,5
+Speeding,11,26
+Spillback,1,1
+Tinted Windows,149,427
+Truck Routes,2,4
+U-Turn,0,0
+Uninspected,4,6
+Uninsured,36,107
+Unlicensed Operator,154,405
+Unregistered,20,46
+Unsafe Lane Change,0,0
+Other Movers,74,214
+TOTAL Movers,1303,3542

@@ -1,0 +1,47 @@
+100th Precinct,,
+Backing Unsafely,4,8
+Bike Lane,0,1
+Bus Lane,0,0
+Cell Phone,51,401
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,4
+Disobey Traffic Control Device,130,928
+Driving Too Slow,0,0
+Equipment,13,186
+Equipment (Other),0,2
+Excessive Noise,0,0
+Fail to Keep Right,0,1
+Fail to yield Right of Way to Pedestrian,14,72
+Failure to Signal,16,304
+Following Too Closely,0,6
+Improper Passing,2,50
+Improper Taxi Pickup,0,1
+Improper Turn,44,100
+Improper/Missing Plates,1,5
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,0,3
+Obstructed Plate,4,48
+One Way Street,6,33
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,2
+Red Light,137,744
+School Bus,4,19
+Scooter In NYC,0,0
+Seat Belt,15,184
+Speeding,96,812
+Spillback,5,5
+TBTA Rule,0,0
+Tints,5,113
+TLC (Other),0,0
+Truck Route,2,2
+Uninspected,1,23
+Uninsured,14,137
+Unlicensed Operator,28,371
+Unregistered,3,33
+Unsafe Lane Change,2,9
+Other Movers,79,952
+TOTAL Movers,676,5559
