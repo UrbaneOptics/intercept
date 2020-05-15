@@ -37,8 +37,7 @@ func (m *TallyModel) List(req *queries.TalliesRequest) ([]*models.Tally, error) 
 					 FROM tallies
 					 WHERE precinct_id=ANY($1)
 					 AND moving_violation_id=ANY($2)
-					 AND year >= $3
-					 AND year <= $4
+					 AND year BETWEEN $3 AND $4
 					 OFFSET $5 ROWS
 					 LIMIT $6
 					`
