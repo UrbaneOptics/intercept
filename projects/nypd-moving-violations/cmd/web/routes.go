@@ -6,7 +6,7 @@ func (app *application) routes() http.Handler {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", app.home)
 
-	mux.HandleFunc("/precinct", http.HandlerFunc(app.showPrecinct))
+	mux.HandleFunc("/precinct", app.showPrecinct)
 	mux.HandleFunc("/precincts", app.getPrecincts)
 
 	mux.HandleFunc("/tally", app.showTally)
