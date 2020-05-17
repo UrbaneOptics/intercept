@@ -29,6 +29,11 @@ func (app *application) serverError(w http.ResponseWriter, err error) {
 	JSONError(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
 }
 
+// customError writes an error message with a custom message and status code
+func (app *application) customError(w http.ResponseWriter, msg string, status int) {
+	JSONError(w, msg, status)
+}
+
 // The clientError helper sends a specific status code and corresponding description
 func (app *application) clientError(w http.ResponseWriter, status int) {
 	JSONError(w, http.StatusText(status), status)

@@ -142,6 +142,20 @@ func (app *application) getTallies(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Check whether the required parameters are missing
+	if t.PrecinctIDs == nil {
+		msg := fmt.Sprintf("Request missing required query parameter 'precinct_ids'")
+		app.customError(w, msg, http.StatusBadRequest)
+		return
+	}
+
+	if t.MovingViolationIDs == nil {
+		msg := fmt.Sprintf("Request missing required query parameter 'moving_violation_ids'")
+		app.customError(w, msg, http.StatusBadRequest)
+		return
+	}
+
+	// Generate list of found tallies
 	tallies, err := app.tallies.List(&t)
 	if err != nil {
 		app.serverError(w, err)
