@@ -1,6 +1,7 @@
 package main
 
 import (
+	"database/sql"
 	"encoding/json"
 	"fmt"
 	"net/http"
@@ -55,7 +56,11 @@ func (app *application) showPrecinct(w http.ResponseWriter, r *http.Request) {
 
 	p, err := app.precincts.Get(id)
 	if err != nil {
-		app.serverError(w, err)
+		if err == sql.ErrNoRows {
+			app.notFound(w)
+		} else {
+			app.serverError(w, err)
+		}
 		return
 	}
 
@@ -103,7 +108,11 @@ func (app *application) showTally(w http.ResponseWriter, r *http.Request) {
 
 	p, err := app.tallies.Get(id)
 	if err != nil {
-		app.serverError(w, err)
+		if err == sql.ErrNoRows {
+			app.notFound(w)
+		} else {
+			app.serverError(w, err)
+		}
 		return
 	}
 
@@ -162,7 +171,12 @@ func (app *application) showMovingViolation(w http.ResponseWriter, r *http.Reque
 
 	p, err := app.movingViolations.Get(id)
 	if err != nil {
-		app.serverError(w, err)
+		if err == sql.ErrNoRows {
+			app.notFound(w)
+		} else {
+			app.serverError(w, err)
+		}
+		return
 	}
 
 	js, err := app.fmtJSON(p)
