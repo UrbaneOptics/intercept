@@ -18,7 +18,7 @@ Data for years 2011-2019 appears to be fully normalized in CSV format. These CSV
 The process for importing and normalizing a dataset is currently
 ```
 Steps:
-1) Manually rename folder to standard format.
+1) Manually rename folder to standard format in the csv folder(ie. 2020_08_sum).
 2) cd into folder
 3) run sh ../../../scripts/excel_to_csv.sh
 4) run sh ../../../scripts/format_csv_files.sh
@@ -30,7 +30,7 @@ After a new dataset has been imported, violation names and precincts need to be 
 helps us see how often violation names are used, and how precincts are represented. Violation names used change over time, and occasionally precinct names as well. For example, the Midtown North Precinct is represented as both `MTN` and `Midtown North` at different times.
 
 1) cd into the /csv folder 
-2) Run `sh update_violations_and_precincts.sh` to generate a JSON containing all the violations and precinct names
+2) Run `sh ../../scripts/update_violations_and_precincts.sh` to generate a JSON containing all the violations and precinct names
 
 
 To update all aggregates
