@@ -12,21 +12,21 @@ type MovingViolationModel struct {
 }
 
 // Get a specific moving violation
-func (m *MovingViolationModel) Get(id int) (*models.Tally, error) {
-	stmt := `SELECT id, count, month, year, precinct_id, moving_violation_id 
-					 FROM tallies 
+func (m *MovingViolationModel) Get(id int) (*models.MovingViolation, error) {
+	stmt := `SELECT id, name
+					 FROM moving_violations 
 					 WHERE id = $1`
 
-	t := &models.Tally{}
+	mv := &models.MovingViolation{}
 
 	row := m.DB.QueryRow(stmt, id)
 
-	err := row.Scan(&t.ID, &t.Count, &t.Month, &t.Year, &t.PrecinctID, &t.MovingViolationID)
+	err := row.Scan(&mv.ID, &mv.Name)
 	if err != nil {
 		return nil, err
 	}
 
-	return t, nil
+	return mv, nil
 }
 
 // List returns a list of moving violations
