@@ -1,0 +1,48 @@
+45th Precinct,,
+Backing Unsafely,0,1
+Bike Lane,1,4
+Bus Lane,0,0
+Cell Phone,23,127
+Commercial Veh on Pkwy,0,2
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,32,444
+Driving Too Slow,0,0
+Equipment,9,128
+Equipment (Other),0,1
+Excessive Noise,0,0
+Fail to Keep Right,0,1
+Fail to yield Right of Way to Pedestrian,23,142
+Failure to Signal,2,36
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,2
+Improper Passing,3,8
+Improper Taxi Pickup,0,0
+Improper Turn,2,74
+Improper/Missing Plates,4,18
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,1,6
+Obstructed Plate,7,49
+One Way Street,1,20
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,1
+Red Light,72,179
+School Bus,0,15
+Scooter In NYC,0,0
+Seat Belt,12,115
+Speeding,100,679
+Spillback,0,0
+TBTA Rule,0,0
+Tints,22,450
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,2,24
+Uninsured,12,129
+Unlicensed Operator,47,276
+Unregistered,18,100
+Unsafe Lane Change,0,13
+Other Movers,36,206
+TOTAL Movers,429,3250
