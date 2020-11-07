@@ -1,0 +1,48 @@
+26th Precinct,,
+Backing Unsafely,0,0
+Bike Lane,1,4
+Bus Lane,0,14
+Cell Phone,1,43
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,11,201
+Driving Too Slow,0,0
+Equipment,6,39
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,5,237
+Failure to Signal,1,10
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,0
+Improper Passing,0,1
+Improper Taxi Pickup,0,0
+Improper Turn,2,203
+Improper/Missing Plates,1,1
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,0,0
+Obstructed Plate,0,4
+One Way Street,1,4
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,1
+Red Light,11,108
+School Bus,0,12
+Scooter In NYC,0,0
+Seat Belt,6,55
+Speeding,124,279
+Spillback,0,10
+TBTA Rule,0,0
+Tints,0,66
+TLC (Other),0,0
+Truck Route,0,1
+Uninspected,1,2
+Uninsured,3,8
+Unlicensed Operator,3,40
+Unregistered,4,16
+Unsafe Lane Change,0,1
+Other Movers,14,103
+TOTAL Movers,195,1463
