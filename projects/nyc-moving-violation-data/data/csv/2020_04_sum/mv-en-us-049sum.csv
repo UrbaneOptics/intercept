@@ -1,0 +1,52 @@
+"Moving Violations",,
+"49th Precinct",,
+"   April ",,
+"Offense Description","MTD 2020","YTD 2020"
+"Backing Unsafely",0,1
+"Bike Lane",0,1
+"Bus Lane",0,0
+"Cell Phone",12,98
+"Commercial Veh on Pkwy",0,0
+"Cruising For Passengers",0,0
+"Disobey Traffic Control Device",30,539
+"Driving Too Slow",0,0
+Equipment,1,29
+"Equipment (Other)",0,0
+"Excessive Noise",0,0
+"Fail to Keep Right",0,0
+"Fail to yield Right of Way to Pedestrian",24,177
+"Failure to Signal",1,19
+"Failure to yield Right of Way to Vehicle",0,0
+"Following Too Closely",0,0
+"Improper Passing",0,1
+"Improper Taxi Pickup",0,0
+"Improper Turn",42,219
+"Improper/Missing Plates",0,1
+"Lamps and Other Equipment on Bicycle",0,0
+"Motorcycle (Other)",0,2
+"Not Giving R of W to Veh.",0,3
+"Obstructed Plate",0,18
+"One Way Street",0,2
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+"Pavement Markings",0,1
+"Red Light",14,89
+"School Bus",0,16
+"Scooter In NYC",0,0
+"Seat Belt",43,210
+Speeding,12,176
+Spillback,0,0
+"TBTA Rule",0,0
+Tints,0,9
+"TLC (Other)",0,0
+"Truck Route",0,0
+Uninspected,3,6
+Uninsured,2,14
+"Unlicensed Operator",19,136
+Unregistered,5,50
+"Unsafe Lane Change",0,1
+"Other Movers",20,161
+"049TOTAL Movers ",228,1979
+"* All figures are preliminary and subject to change.",,

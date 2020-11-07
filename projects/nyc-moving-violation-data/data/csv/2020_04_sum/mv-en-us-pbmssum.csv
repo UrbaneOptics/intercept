@@ -1,0 +1,52 @@
+"Moving Violations",,
+"Manhattan South",,
+"   April ",,
+"Offense Description","MTD 2020","YTD 2020"
+"Backing Unsafely",1,20
+"Bike Lane",0,208
+"Bus Lane",0,111
+"Cell Phone",0,393
+"Commercial Veh on Pkwy",0,0
+"Cruising For Passengers",0,0
+"Disobey Traffic Control Device",2,2899
+"Driving Too Slow",0,0
+Equipment,1,219
+"Equipment (Other)",0,2
+"Excessive Noise",0,0
+"Fail to Keep Right",0,0
+"Fail to yield Right of Way to Pedestrian",0,3435
+"Failure to Signal",0,324
+"Failure to yield Right of Way to Vehicle",0,3
+"Following Too Closely",0,6
+"Improper Passing",0,32
+"Improper Taxi Pickup",0,26
+"Improper Turn",2,2882
+"Improper/Missing Plates",1,14
+"Lamps and Other Equipment on Bicycle",0,2
+"Motorcycle (Other)",0,23
+"Not Giving R of W to Veh.",0,25
+"Obstructed Plate",0,116
+"One Way Street",3,119
+Overheight,0,0
+Overlength,0,2
+Overweight,0,1
+Overwidth,0,0
+"Pavement Markings",0,5
+"Red Light",3,1751
+"School Bus",0,64
+"Scooter In NYC",0,0
+"Seat Belt",2,811
+Speeding,119,1198
+Spillback,0,56
+"TBTA Rule",0,0
+Tints,0,260
+"TLC (Other)",0,0
+"Truck Route",0,163
+Uninspected,1,17
+Uninsured,1,62
+"Unlicensed Operator",7,358
+Unregistered,3,51
+"Unsafe Lane Change",1,100
+"Other Movers",3,2028
+"PBMSTOTAL Movers ",150,17786
+"* All figures are preliminary and subject to change.",,

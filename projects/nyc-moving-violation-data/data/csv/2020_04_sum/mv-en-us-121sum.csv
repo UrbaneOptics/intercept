@@ -1,0 +1,52 @@
+"Moving Violations",,
+"121st Precinct",,
+"   April ",,
+"Offense Description","MTD 2020","YTD 2020"
+"Backing Unsafely",0,1
+"Bike Lane",0,0
+"Bus Lane",1,29
+"Cell Phone",0,87
+"Commercial Veh on Pkwy",0,0
+"Cruising For Passengers",0,0
+"Disobey Traffic Control Device",2,376
+"Driving Too Slow",0,0
+Equipment,0,38
+"Equipment (Other)",0,0
+"Excessive Noise",0,0
+"Fail to Keep Right",0,0
+"Fail to yield Right of Way to Pedestrian",0,92
+"Failure to Signal",1,69
+"Failure to yield Right of Way to Vehicle",0,0
+"Following Too Closely",0,5
+"Improper Passing",0,3
+"Improper Taxi Pickup",0,0
+"Improper Turn",0,65
+"Improper/Missing Plates",1,5
+"Lamps and Other Equipment on Bicycle",0,0
+"Motorcycle (Other)",0,0
+"Not Giving R of W to Veh.",0,6
+"Obstructed Plate",2,30
+"One Way Street",0,1
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+"Pavement Markings",0,0
+"Red Light",1,279
+"School Bus",0,8
+"Scooter In NYC",0,0
+"Seat Belt",0,332
+Speeding,67,553
+Spillback,0,4
+"TBTA Rule",0,0
+Tints,0,395
+"TLC (Other)",0,0
+"Truck Route",0,0
+Uninspected,0,4
+Uninsured,3,48
+"Unlicensed Operator",4,204
+Unregistered,3,29
+"Unsafe Lane Change",0,23
+"Other Movers",0,209
+"121TOTAL Movers ",85,2895
+"* All figures are preliminary and subject to change.",,
