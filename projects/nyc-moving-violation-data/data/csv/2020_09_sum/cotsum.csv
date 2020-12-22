@@ -1,0 +1,48 @@
+Transportation Bureau,,
+Backing Unsafely,3,40
+Bike Lane,1,28
+Bus Lane,13,224
+Cell Phone,142,1376
+Commercial Veh on Pkwy,131,1381
+Cruising For Passengers,4,12
+Disobey Traffic Control Device,851,14876
+Driving Too Slow,4,8
+Equipment,853,6270
+Equipment (Other),2,10
+Excessive Noise,0,1
+Fail to Keep Right,2,19
+Fail to yield Right of Way to Pedestrian,126,3514
+Failure to Signal,91,1363
+Failure to yield Right of Way to Vehicle,0,6
+Following Too Closely,41,317
+Improper Passing,24,220
+Improper Taxi Pickup,20,425
+Improper Turn,75,4186
+Improper/Missing Plates,20,156
+Lamps and Other Equipment on Bicycle,0,5
+Motorcycle (Other),60,238
+Not Giving R of W to Veh.,7,113
+Obstructed Plate,770,1853
+One Way Street,8,540
+Overheight,2,56
+Overlength,45,364
+Overweight,170,1296
+Overwidth,34,226
+Pavement Markings,1,54
+Red Light,70,1506
+School Bus,2,31
+Scooter In NYC,0,0
+Seat Belt,520,4498
+Speeding,5720,57557
+Spillback,23,655
+TBTA Rule,0,0
+Tints,494,3887
+TLC (Other),0,0
+Truck Route,67,1303
+Uninspected,111,681
+Uninsured,178,1131
+Unlicensed Operator,760,5431
+Unregistered,319,1763
+Unsafe Lane Change,83,993
+Other Movers,573,6157
+TOTAL Movers,12420,124770

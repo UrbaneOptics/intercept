@@ -1,0 +1,48 @@
+Staten Island,,
+Backing Unsafely,2,7
+Bike Lane,0,1
+Bus Lane,4,58
+Cell Phone,35,494
+Commercial Veh on Pkwy,0,1
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,51,2198
+Driving Too Slow,1,1
+Equipment,16,192
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,1,13
+Fail to yield Right of Way to Pedestrian,16,367
+Failure to Signal,14,294
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,1,13
+Improper Passing,2,25
+Improper Taxi Pickup,0,0
+Improper Turn,6,315
+Improper/Missing Plates,3,15
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,2
+Not Giving R of W to Veh.,0,31
+Obstructed Plate,16,214
+One Way Street,5,24
+Overheight,0,0
+Overlength,0,4
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,51,853
+School Bus,7,68
+Scooter In NYC,0,0
+Seat Belt,46,1108
+Speeding,178,3487
+Spillback,1,8
+TBTA Rule,0,0
+Tints,52,847
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,3,35
+Uninsured,15,240
+Unlicensed Operator,82,1069
+Unregistered,24,182
+Unsafe Lane Change,4,64
+Other Movers,113,1491
+TOTAL Movers,749,13721
