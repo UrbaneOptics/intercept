@@ -1,0 +1,48 @@
+50th Precinct,,
+Backing Unsafely,0,0
+Bike Lane,0,0
+Bus Lane,0,0
+Cell Phone,2,17
+Commercial Veh on Pkwy,0,3
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,16,32
+Driving Too Slow,0,0
+Equipment,16,80
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,2,31
+Failure to Signal,2,11
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,0
+Improper Passing,3,4
+Improper Taxi Pickup,0,0
+Improper Turn,5,88
+Improper/Missing Plates,16,88
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),1,5
+Not Giving R of W to Veh.,0,0
+Obstructed Plate,9,52
+One Way Street,0,6
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,9,40
+School Bus,0,1
+Scooter In NYC,0,0
+Seat Belt,9,89
+Speeding,0,51
+Spillback,0,0
+TBTA Rule,0,0
+Tints,31,386
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,9,31
+Uninsured,19,133
+Unlicensed Operator,21,127
+Unregistered,19,133
+Unsafe Lane Change,0,1
+Other Movers,9,66
+TOTAL Movers,198,1475

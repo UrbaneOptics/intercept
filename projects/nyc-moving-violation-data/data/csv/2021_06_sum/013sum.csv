@@ -1,0 +1,48 @@
+13th Precinct,,
+Backing Unsafely,0,1
+Bike Lane,0,11
+Bus Lane,1,3
+Cell Phone,14,100
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,22,292
+Driving Too Slow,0,0
+Equipment,4,17
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,9
+Fail to yield Right of Way to Pedestrian,17,218
+Failure to Signal,3,8
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,0
+Improper Passing,0,1
+Improper Taxi Pickup,0,0
+Improper Turn,89,659
+Improper/Missing Plates,1,3
+Lamps and Other Equipment on Bicycle,0,1
+Motorcycle (Other),0,1
+Not Giving R of W to Veh.,0,1
+Obstructed Plate,4,16
+One Way Street,2,13
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,33,421
+School Bus,2,15
+Scooter In NYC,0,0
+Seat Belt,76,155
+Speeding,21,188
+Spillback,0,1
+TBTA Rule,0,0
+Tints,5,54
+TLC (Other),0,0
+Truck Route,0,6
+Uninspected,0,0
+Uninsured,1,5
+Unlicensed Operator,3,60
+Unregistered,8,24
+Unsafe Lane Change,0,5
+Other Movers,38,254
+TOTAL Movers,344,2542

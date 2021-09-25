@@ -1,0 +1,48 @@
+Brooklyn South,,
+Backing Unsafely,2,4
+Bike Lane,3,5
+Bus Lane,3,48
+Cell Phone,270,547
+Commercial Veh on Pkwy,27,41
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,1206,2904
+Driving Too Slow,1,1
+Equipment,90,247
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,556,1154
+Failure to Signal,96,197
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,4
+Improper Passing,11,22
+Improper Taxi Pickup,0,0
+Improper Turn,360,761
+Improper/Missing Plates,4,17
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,7,15
+Obstructed Plate,136,306
+One Way Street,11,24
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,2,2
+Red Light,823,1833
+School Bus,0,13
+Scooter In NYC,0,0
+Seat Belt,546,1124
+Speeding,686,2013
+Spillback,3,4
+TBTA Rule,0,0
+Tints,185,440
+TLC (Other),0,0
+Truck Route,9,33
+Uninspected,8,19
+Uninsured,46,153
+Unlicensed Operator,348,840
+Unregistered,130,308
+Unsafe Lane Change,9,29
+Other Movers,660,1376
+TOTAL Movers,6238,14484
