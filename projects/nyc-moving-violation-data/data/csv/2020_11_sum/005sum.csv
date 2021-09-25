@@ -1,0 +1,48 @@
+5th Precinct,,
+Backing Unsafely,0,3
+Bike Lane,3,26
+Bus Lane,3,65
+Cell Phone,6,48
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,132,655
+Driving Too Slow,0,0
+Equipment,29,110
+Equipment (Other),0,1
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,18,431
+Failure to Signal,2,10
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,4
+Improper Passing,3,19
+Improper Taxi Pickup,0,4
+Improper Turn,35,344
+Improper/Missing Plates,4,4
+Lamps and Other Equipment on Bicycle,0,0
+Motorcycle (Other),0,9
+Not Giving R of W to Veh.,1,2
+Obstructed Plate,7,54
+One Way Street,0,7
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,66,258
+School Bus,0,1
+Scooter In NYC,0,0
+Seat Belt,8,154
+Speeding,1,523
+Spillback,1,18
+TBTA Rule,0,0
+Tints,1,16
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,2,6
+Uninsured,1,24
+Unlicensed Operator,12,112
+Unregistered,6,30
+Unsafe Lane Change,2,10
+Other Movers,44,297
+TOTAL Movers,387,3245
