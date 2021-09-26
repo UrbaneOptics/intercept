@@ -12,9 +12,9 @@ Data for all of the moving violations that the NYPD tallies can be found in the 
 
 # Notes on data
 
-| Type | Start Date | Note
+| Summary | Start Date | Note 
 ---|---|---
-New Precinct | July 2013(07/2013) | Precinct 121 | On July 2013, the 121st precinct was created. Summons issues prior to that date will be reflected in the totals for the 120th or 122nd precinct, depending on where they were issued. The 121st precinct will only have totals from July 2013 onwards.
+Precinct 121 Created | July 2013(07/2013) |  On July 2013, the 121st precinct was created. Summons issued prior to that date will be reflected in the totals for the 120th or 122nd precinct, depending on where they were issued. The 121st precinct will only have totals from July 2013 onwards.
 
 
 If you notice any issues with the data, please open a ticket or e-mail joe@urbaneoptics.com
