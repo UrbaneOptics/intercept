@@ -17,7 +17,7 @@ Data for all of the moving violations that the NYPD tallies can be found in the 
 Precinct 121 Created | July 2013(07/2013) |  On July 2013, the 121st precinct was created. Summons issued prior to that date will be reflected in the totals for the 120th or 122nd precinct, depending on where they were issued. The 121st precinct will only have totals from July 2013 onwards.
 
 
-If you notice any issues with the data, please open a ticket or e-mail joe@urbaneoptics.com
+If you notice any issues with the data, please open a new issue in this repository
 
 # Importing new datasets
 The NYPD appears to update moving violation datasets on about a 2 month delay. So you should expect to see a July dataset appear sometime in September. To import a new dataset when they're posted on the [Moving Violations and Summonses](https://www1.nyc.gov/site/nypd/stats/traffic-data/traffic-data-moving.page) page, you should:
