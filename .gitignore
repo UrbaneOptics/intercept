@@ -6,3 +6,6 @@ projects/nypd-moving-violations/cmd/web/pkg/mod/cache/download/github.com/lib/pq
 *.swp
 projects/nyc-moving-violation-data/commands.txt
 projects/nypd-moving-violations/pkg/scripts/legacy_data
+
+projects/mta-bustracker-lambda/.aws-sam/*
+projects/mta-bustracker-lambda/node_modules
