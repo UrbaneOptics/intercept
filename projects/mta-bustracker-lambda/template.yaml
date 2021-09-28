@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Parameters: 
+    IdentityNameParameter: 
+      Type: String
+Resources:
+  httpsrequest:
+    Type: 'AWS::Serverless::Function'
+    FunctionName: 'mta-bustracker-rt'
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs12.x
+      CodeUri: .
+      MemorySize: 128
+      Timeout: 30
+      Policies:
+        - SESSendBouncePolicy:
+            IdentityName: !Ref IdentityNameParameter
+      Events:
+        ScheduledBusTrackerFetch:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 minute)
