@@ -20,35 +20,30 @@ Precinct 121 Created | July 2013(07/2013) |  On July 2013, the 121st precinct wa
 If you notice any issues with the data, please open a new issue in this repository
 
 # Importing new datasets
-### Prerequisites
+## **Prerequisites**
 - Gnumeric(brew install gnumeric)
 
-The NYPD appears to update the moving violation archive page on about a 2 month delay. So you should expect to see a July dataset appear sometime in September. It is possible to download a dataset before the archive index page is updated, but there is a risk of this data changing.  To import a new dataset when they're posted on the [Moving Violations and Summonses](https://www1.nyc.gov/site/nypd/stats/traffic-data/traffic-data-moving.page) page, you can run the following from the root directory:
-```shell 
+## **Commands**
+
+### **Downloading and extracting new datasets to CSV**
+```shell
+# Run from the root directory
 sh scripts/download_extract_format.sh
 ```
 
 The script will prompt you to enter a year and month and will then begin downloading, extracting and formatting the dataset into the `data/csv` directory.
 
-After a new dataset has been imported, violation names and precincts need to be updated. The JSON file generated
+**Note:** The NYPD appears to update the [Moving Violations and Summonses archive page](https://www1.nyc.gov/site/nypd/stats/traffic-data/traffic-data-moving.page) on about a 2 month delay. So you should expect to see a July dataset appear sometime in September. It is possible to download a dataset before the archive index page is updated, but there is a risk of this data changing.  To import a new dataset when they're posted on the page, you can run the following from the root directory:
+
+
+### **Updating JSON aggregates**
+When a new dataset has been imported, violation names and precincts need to be updated. The JSON file generated
 helps us see how often violation names are used, and how precincts are represented. Violation names used change over time, and occasionally precinct names as well. For example, the Midtown North Precinct is represented as both `MTN` and `Midtown North` at different times.
 
-To update aggregates, run the following from the root directory:
+The [data/json](./data/json) directory holds JSON files which contain a single file per precinct which holds aggregates of each of the moving violations a precinct has written since moving violation data has been public. 
+
+To update all aggregates, run the following:
 ```shell
-sh scripts/update_violations_and_precincts.sh
-```
-
-
-To update all aggregates
-
-```
-folders=(*)              
-for i in "${folders[@]}"
-do     
-cd $i             
-csv_files=(*.csv)
-cd ..                      
-for j in "${csv_files[@]}"                          
-  ruby ../../scripts/retrieve_violation_count.rb $j
-done
+# Run from the root directory
+sh scripts/update_aggregates.sh
 ```

@@ -126,24 +126,131 @@ folders = [
   "2021_11_sum"
 ]
 
+precinct_files = [
+  "001sum.csv",
+  "005sum.csv",
+  "006sum.csv",
+  "007sum.csv",
+  "009sum.csv",
+  "010sum.csv",
+  "013sum.csv",
+  "014sum.csv",
+  "017sum.csv",
+  "018sum.csv",
+  "019sum.csv",
+  "020sum.csv",
+  "022sum.csv",
+  "023sum.csv",
+  "024sum.csv",
+  "025sum.csv",
+  "026sum.csv",
+  "028sum.csv",
+  "030sum.csv",
+  "032sum.csv",
+  "033sum.csv",
+  "034sum.csv",
+  "040sum.csv",
+  "041sum.csv",
+  "042sum.csv",
+  "043sum.csv",
+  "044sum.csv",
+  "045sum.csv",
+  "046sum.csv",
+  "047sum.csv",
+  "048sum.csv",
+  "049sum.csv",
+  "050sum.csv",
+  "052sum.csv",
+  "060sum.csv",
+  "061sum.csv",
+  "062sum.csv",
+  "063sum.csv",
+  "066sum.csv",
+  "067sum.csv",
+  "068sum.csv",
+  "069sum.csv",
+  "070sum.csv",
+  "071sum.csv",
+  "072sum.csv",
+  "073sum.csv",
+  "075sum.csv",
+  "076sum.csv",
+  "077sum.csv",
+  "078sum.csv",
+  "079sum.csv",
+  "081sum.csv",
+  "083sum.csv",
+  "084sum.csv",
+  "088sum.csv",
+  "090sum.csv",
+  "094sum.csv",
+  "100sum.csv",
+  "101sum.csv",
+  "102sum.csv",
+  "103sum.csv",
+  "104sum.csv",
+  "105sum.csv",
+  "106sum.csv",
+  "107sum.csv",
+  "108sum.csv",
+  "109sum.csv",
+  "110sum.csv",
+  "111sum.csv",
+  "112sum.csv",
+  "113sum.csv",
+  "114sum.csv",
+  "115sum.csv",
+  "120sum.csv",
+  "121sum.csv",
+  "122sum.csv",
+  "123sum.csv",
+  "citysum.csv",
+  "cotsum.csv",
+  "housingsum.csv",
+  "patrolsum.csv",
+  "pbbnsum.csv",
+  "pbbssum.csv",
+  "pbbxsum.csv",
+  "pbmnsum.csv",
+  "pbmssum.csv",
+  "pbqnsum.csv",
+  "pbqssum.csv",
+  "pbsisum.csv",
+  "transitsum.csv"
+]
+
 months = {}
+files_not_found = []
+
 folders.each do |folder|
-  puts "Aggregating violations occuring on #{folder} for #{ARGV}"
-  # Call from the /csv directory
-  # ruby ../../scripts/retrieve_violation_count.rb 013.sum.csv
-  file_dir = File.dirname(__FILE__) + "/../data/csv/#{folder}/#{ARGV[0]}"
-  puts "Reading file from #{file_dir}"
+  puts "Aggregating violations occuring on #{folder}"
   months[folder] = {}
-  if File.exists?(file_dir)
-    file = CSV.read(file_dir)
-    file.each_with_index do |line, idx|
-      if !line[0].nil? && !line[1].nil?
-        months[folder][line[0]] = line[1]
+  precinct_files.each do |pf|
+    file_dir = File.join(File.dirname(__FILE__), '../', 'data','csv', folder, pf)
+    precinct = pf.sub("sum.csv","")
+    months[folder][precinct] = {}
+    puts "Reading file from #{file_dir}"
+
+    if File.exists?(file_dir)
+      p "File exists"
+      file = CSV.read(file_dir)
+      file.each_with_index do |line, idx|
+        if !line[0].nil? && !line[1].nil?
+          months[folder][precinct][line[0]] = line[1]
+        end
       end
-    end  
+    else
+      p "File does not exist. Adding to files not found"
+      files_not_found.append(file_dir.sub('scripts/', '').gsub('../','')) 
+    end
   end
 end
 
-File.open(File.dirname(__FILE__) + "/../data/json/#{ARGV[0].sub("sum.csv","")}_aggregate.json","w") do |f|
+File.open(File.join(File.dirname(__FILE__), '../', 'data', 'json', "aggregates.json"),"w") do |f|
   f.write(JSON.pretty_generate(months))
+end
+
+# Keep track of which precincts are missing stats
+File.open(File.join(File.dirname(__FILE__), '../', 'data', 'json', "missing_stats.json"),"w") do |f|
+  f.write(JSON.pretty_generate(files_not_found))
 end
