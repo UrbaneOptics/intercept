@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Run from CSV directory
 
 # Aggregate all csv's

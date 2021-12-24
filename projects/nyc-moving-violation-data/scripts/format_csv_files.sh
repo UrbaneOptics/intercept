@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Removing all 'preliminary text'
 echo "Removing all 'preliminary text'"
 LC_ALL=C find . -type f -name '*.csv' -exec sed -i '' s/"\"\*\ All\ figures\ are\ preliminary\ and\ subject\ to\ change\."\"\,\,// {} +
@@ -59,8 +61,10 @@ done
 
 # This will remove the 'mv-en-us-' prefix from all filenames existing in folders
 # from the directory this is called in.
-echo "Formatting the file names'"
+echo "Formatting the file names"
 for filename in *.csv; do
     [ -f "$filename" ] || continue
     mv "$filename" "${filename//mv-en-us-/}"
 done
+
+echo "Formatting complete. Verify and commit the dataset"

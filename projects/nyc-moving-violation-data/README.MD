@@ -20,14 +20,15 @@ Precinct 121 Created | July 2013(07/2013) |  On July 2013, the 121st precinct wa
 If you notice any issues with the data, please open a new issue in this repository
 
 # Importing new datasets
-The NYPD appears to update moving violation datasets on about a 2 month delay. So you should expect to see a July dataset appear sometime in September. To import a new dataset when they're posted on the [Moving Violations and Summonses](https://www1.nyc.gov/site/nypd/stats/traffic-data/traffic-data-moving.page) page, you should:
+### Prerequisites
+- Gnumeric(brew install gnumeric)
 
-1) Download and extract the dataset to the `./data/csv/` folder in the following format: `<YYYY>_<MM>_sum`
-2) cd into the folder you just extracted(ex. `cd ./data/csv/2021_07_sum`)
-3) run `sh ../../../scripts/excel_to_csv.sh` to convert the excel files to CSV(NOTE: gnumeric is required here through `brew install gnumeric` if on OSX)
-4) run `sh ../../../scripts/format_csv_files.sh` to normalize the csv files
-5) run `cd ..` to go back to the main `csv/` folder 
-6) run `sh ../../scripts/remove_filename_prefix.sh` to rename all of the newly formatted files
+The NYPD appears to update the moving violation archive page on about a 2 month delay. So you should expect to see a July dataset appear sometime in September. It is possible to download a dataset before the archive index page is updated, but there is a risk of this data changing.  To import a new dataset when they're posted on the [Moving Violations and Summonses](https://www1.nyc.gov/site/nypd/stats/traffic-data/traffic-data-moving.page) page, you can run the following from the root directory:
+```shell 
+sh scripts/download_extract_format.sh
+```
+
+The script will prompt you to enter a year and month and will then begin downloading, extracting and formatting the dataset into the `data/csv` directory.
 
 After a new dataset has been imported, violation names and precincts need to be updated. The JSON file generated
 helps us see how often violation names are used, and how precincts are represented. Violation names used change over time, and occasionally precinct names as well. For example, the Midtown North Precinct is represented as both `MTN` and `Midtown North` at different times.
