@@ -6,16 +6,18 @@ This repository aims to format and present this data in a standardized way. To d
 (2) [JSON files are provided as well](./data/json/aggregates#precinct-violation-aggregates).
 
 ## The data 
-The cleaned up moving violation data can be found in the [data/csv](https://github.com/UrbaneOptics/nyc-moving-violation-data/tree/master/data/csv) folder. This contains all of the monthly precinct data in a consistent format.
+The cleaned up moving violation data can be found in the [data/csv](./data/csv) folder. This contains all of the monthly precinct data in a consistent format.
 
-Data for all of the moving violations that the NYPD tallies can be found in the [data/moving_violation_types](https://github.com/UrbaneOptics/nyc-moving-violation-data/blob/master/data/moving_violation_types.csv).
+A single aggregate file containing all historical moving violations written by precincts each month can be found in [data/json/aggregates](./data/json/aggregates.json)
+
+Data for all of the moving violations that the NYPD tallies can be found in the [data/moving_violation_types](./data/moving_violation_types.json).
 
 # Notes on data
 
 | Summary | Start Date | Note 
 ---|---|---
 Precinct 121 Created | July 2013(07/2013) |  On July 2013, the 121st precinct was created. Summons issued prior to that date will be reflected in the totals for the 120th or 122nd precinct, depending on where they were issued. The 121st precinct will only have totals from July 2013 onwards.
-
+Missing November 2016 stats | November 2016(11/2016) | The NYPD moving violations archive is missing stats for all precincts from 11/2016. They accidentally uploaded collision reports for that month and there are no available violations to process.
 
 If you notice any issues with the data, please open a new issue in this repository
 
@@ -37,10 +39,8 @@ The script will prompt you to enter a year and month and will then begin downloa
 
 
 ### **Updating JSON aggregates**
-When a new dataset has been imported, violation names and precincts need to be updated. The JSON file generated
-helps us see how often violation names are used, and how precincts are represented. Violation names used change over time, and occasionally precinct names as well. For example, the Midtown North Precinct is represented as both `MTN` and `Midtown North` at different times.
-
-The [data/json](./data/json) directory holds JSON files which contain a single file per precinct which holds aggregates of each of the moving violations a precinct has written since moving violation data has been public. 
+When a new dataset has been imported, violation names, precincts, and aggregates need to be updated. The JSON files generated
+help us see how often violation names are used, how precincts are represented and build the [aggregates file](./data/json/aggregates.json) for historical datasets. Violation names used change over time, and occasionally precinct names as well. For example, the Midtown North Precinct is represented as both `MTN` and `Midtown North` at different times.
 
 To update all aggregates, run the following:
 ```shell
