@@ -56,3 +56,11 @@ for i in "${csv_files[@]}"
 do
 	ruby ../../../scripts/parse_csvs_2014_and_later.rb $i
 done
+
+# This will remove the 'mv-en-us-' prefix from all filenames existing in folders
+# from the directory this is called in.
+echo "Formatting the file names'"
+for filename in *.csv; do
+    [ -f "$filename" ] || continue
+    mv "$filename" "${filename//mv-en-us-/}"
+done
