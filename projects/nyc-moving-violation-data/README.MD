@@ -33,8 +33,10 @@ The script will prompt you to enter a year and month and will then begin downloa
 After a new dataset has been imported, violation names and precincts need to be updated. The JSON file generated
 helps us see how often violation names are used, and how precincts are represented. Violation names used change over time, and occasionally precinct names as well. For example, the Midtown North Precinct is represented as both `MTN` and `Midtown North` at different times.
 
-1) cd into the `/csv` folder 
-2) Run `sh ../../scripts/update_violations_and_precincts.sh` to generate a JSON containing all the violations and precinct names
+To update aggregates, run the following from the root directory:
+```shell
+sh scripts/update_violations_and_precincts.sh
+```
 
 
 To update all aggregates
