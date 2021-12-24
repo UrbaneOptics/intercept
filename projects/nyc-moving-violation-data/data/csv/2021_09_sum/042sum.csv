@@ -1,0 +1,48 @@
+42nd Precinct,,
+Backing Unsafely,0,2
+Bike Lane,1,33
+Bus Lane,4,88
+Cell Phone,6,65
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,32,358
+Driving Too Slow,0,0
+Equipment,4,73
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,2,12
+Fail to yield Right of Way to Pedestrian,14,218
+Failure to Signal,2,27
+Failure to yield Right of Way to Vehicle,0,0
+Following Too Closely,0,1
+Improper Passing,0,2
+Improper Taxi Pickup,0,0
+Improper Turn,27,222
+Improper/Missing Plates,0,7
+Lamps and Other Equipment on Bicycle,0,1
+Motorcycle (Other),0,0
+Not Giving R of W to Veh.,0,4
+Obstructed Plate,18,97
+One Way Street,0,0
+Overheight,0,0
+Overlength,0,0
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,7,146
+School Bus,6,8
+Scooter In NYC,0,0
+Seat Belt,60,262
+Speeding,15,388
+Spillback,0,5
+TBTA Rule,0,0
+Tints,6,40
+TLC (Other),0,0
+Truck Route,0,0
+Uninspected,26,104
+Uninsured,20,113
+Unlicensed Operator,43,455
+Unregistered,37,265
+Unsafe Lane Change,0,2
+Other Movers,41,257
+TOTAL Movers,371,3255

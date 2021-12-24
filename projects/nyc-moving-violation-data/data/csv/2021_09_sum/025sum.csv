@@ -1,0 +1,48 @@
+25th Precinct,,
+Backing Unsafely,3,8
+Bike Lane,0,1
+Bus Lane,1,28
+Cell Phone,3,12
+Commercial Veh on Pkwy,0,0
+Cruising For Passengers,0,0
+Disobey Traffic Control Device,62,332
+Driving Too Slow,0,0
+Equipment,41,241
+Equipment (Other),0,0
+Excessive Noise,0,0
+Fail to Keep Right,0,0
+Fail to yield Right of Way to Pedestrian,117,890
+Failure to Signal,3,23
+Failure to yield Right of Way to Vehicle,0,1
+Following Too Closely,0,0
+Improper Passing,1,4
+Improper Taxi Pickup,0,0
+Improper Turn,39,196
+Improper/Missing Plates,0,1
+Lamps and Other Equipment on Bicycle,0,13
+Motorcycle (Other),2,4
+Not Giving R of W to Veh.,0,0
+Obstructed Plate,9,76
+One Way Street,16,60
+Overheight,0,0
+Overlength,0,1
+Overweight,0,0
+Overwidth,0,0
+Pavement Markings,0,0
+Red Light,65,937
+School Bus,2,2
+Scooter In NYC,0,0
+Seat Belt,88,420
+Speeding,59,438
+Spillback,1,2
+TBTA Rule,0,0
+Tints,1,58
+TLC (Other),0,0
+Truck Route,7,38
+Uninspected,2,12
+Uninsured,4,39
+Unlicensed Operator,30,172
+Unregistered,22,88
+Unsafe Lane Change,1,6
+Other Movers,30,223
+TOTAL Movers,609,4326
